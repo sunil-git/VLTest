@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A6ADA6CA-97AD-40DA-B0CB-6D2B54BC000D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Serenataflowers</RootNamespace>
+    <AssemblyName>Serenataflowers</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChilkatDotNet4, Version=9.3.1.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ChilkatDotNet4.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=737bc70442f2c4af, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SFMobile.Exceptions\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SFMobile.Exceptions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SFMobile.Exceptions\bin\Debug\SFMobile.Exceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="amazonLocal5.aspx" />
+    <Content Include="Category.aspx" />
+    <Content Include="Checkout\m_checkoutCancel.aspx" />
+    <Content Include="Checkout\m_checkoutReview.aspx" />
+    <Content Include="Checkout\CustomerDetails.aspx" />
+    <Content Include="Checkout\m_confirmation.aspx" />
+    <Content Include="Checkout\m_customerdetails.aspx" />
+    <Content Include="Checkout\m_dhppResponse.aspx" />
+    <Content Include="Checkout\m_expressCheckout.aspx" />
+    <Content Include="Checkout\m_login.aspx" />
+    <Content Include="Checkout\m_paymentdetails.aspx" />
+    <Content Include="Checkout\m_recipientdetails.aspx" />
+    <Content Include="Checkout\m_resetpassword.aspx" />
+    <Content Include="Checkout\m_summary.aspx" />
+    <Content Include="Checkout\m_upsells.aspx" />
+    <Content Include="Checkout\RecipientDetails.aspx" />
+    <Content Include="ConfigXML\config.xml" />
+    <Content Include="ConfigXML\Productionconfig.xml" />
+    <Content Include="Contact.aspx" />
+    <Content Include="ContactPage.aspx" />
+    <Content Include="Controls\BasketCount.ascx" />
+    <Content Include="Controls\CheckoutFooter.ascx" />
+    <Content Include="Controls\CheckoutHeader.ascx" />
+    <Content Include="Controls\ContactUs.ascx" />
+    <Content Include="Controls\ETEmailVerfiy.ascx" />
+    <Content Include="Controls\PromptLogin.ascx" />
+    <Content Include="Controls\EditBasket.ascx" />
+    <Content Include="Controls\EditDeliveryDate.ascx" />
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\Header.ascx" />
+    <Content Include="Controls\m_Privacy.ascx" />
+    <Content Include="Controls\m_Terms.ascx" />
+    <Content Include="Controls\Panel.ascx" />
+    <Content Include="Controls\PasswordReminder.ascx" />
+    <Content Include="Controls\ViewCustomerDetails.ascx" />
+    <Content Include="Controls\ViewRecipientDetails.ascx" />
+    <Content Include="Controls\Voucher.ascx" />
+    <Content Include="m_OrderTracking.aspx" />
+    <Content Include="Scripts\CutOffTimer.js" />
+    <Content Include="Scripts\test.js" />
+    <Content Include="TestMail.aspx" />
+    <Content Include="Encryption\aesLibrary.asp" />
+    <Content Include="Encryption\encrypt.asp" />
+    <Content Include="Encryption\ErroLog\Summer.txt" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Flower_delivery.aspx" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\basket-mobile.png" />
+    <Content Include="images\continuetorecipient.bmp" />
+    <Content Include="images\fc-webicon-facebook.png" />
+    <Content Include="images\fc-webicon-googleplus.png" />
+    <Content Include="images\fc-webicon-linkedin.png" />
+    <Content Include="images\fc-webicon-twitter.png" />
+    <Content Include="images\foundation\orbit\bullets.jpg" />
+    <Content Include="images\foundation\orbit\left-arrow-small.png" />
+    <Content Include="images\foundation\orbit\left-arrow.png" />
+    <Content Include="images\foundation\orbit\loading.gif" />
+    <Content Include="images\foundation\orbit\mask-black.png" />
+    <Content Include="images\foundation\orbit\pause-black.png" />
+    <Content Include="images\foundation\orbit\right-arrow-small.png" />
+    <Content Include="images\foundation\orbit\right-arrow.png" />
+    <Content Include="images\foundation\orbit\rotator-black.png" />
+    <Content Include="images\foundation\orbit\timer-black.png" />
+    <Content Include="images\greenbtn-hover.gif" />
+    <Content Include="images\greenbtn.gif" />
+    <Content Include="images\icons\fc-webicon-aboutme-m.png" />
+    <Content Include="images\icons\fc-webicon-aboutme-s.png" />
+    <Content Include="images\icons\fc-webicon-aboutme.png" />
+    <Content Include="images\icons\fc-webicon-adn-m.png" />
+    <Content Include="images\icons\fc-webicon-adn-s.png" />
+    <Content Include="images\icons\fc-webicon-adn.png" />
+    <Content Include="images\icons\fc-webicon-android-m.png" />
+    <Content Include="images\icons\fc-webicon-android-s.png" />
+    <Content Include="images\icons\fc-webicon-android.png" />
+    <Content Include="images\icons\fc-webicon-apple-m.png" />
+    <Content Include="images\icons\fc-webicon-apple-s.png" />
+    <Content Include="images\icons\fc-webicon-apple.png" />
+    <Content Include="images\icons\fc-webicon-behance-m.png" />
+    <Content Include="images\icons\fc-webicon-behance-s.png" />
+    <Content Include="images\icons\fc-webicon-behance.png" />
+    <Content Include="images\icons\fc-webicon-bitbucket-m.png" />
+    <Content Include="images\icons\fc-webicon-bitbucket-s.png" />
+    <Content Include="images\icons\fc-webicon-bitbucket.png" />
+    <Content Include="images\icons\fc-webicon-creativecloud-m.png" />
+    <Content Include="images\icons\fc-webicon-creativecloud-s.png" />
+    <Content Include="images\icons\fc-webicon-creativecloud.png" />
+    <Content Include="images\icons\fc-webicon-dribbble-m.png" />
+    <Content Include="images\icons\fc-webicon-dribbble-s.png" />
+    <Content Include="images\icons\fc-webicon-dribbble.png" />
+    <Content Include="images\icons\fc-webicon-dropbox-m.png" />
+    <Content Include="images\icons\fc-webicon-dropbox-s.png" />
+    <Content Include="images\icons\fc-webicon-dropbox.png" />
+    <Content Include="images\icons\fc-webicon-evernote-m.png" />
+    <Content Include="images\icons\fc-webicon-evernote-s.png" />
+    <Content Include="images\icons\fc-webicon-evernote.png" />
+    <Content Include="images\icons\fc-webicon-facebook-m.png" />
+    <Content Include="images\icons\fc-webicon-facebook-s.png" />
+    <Content Include="images\icons\fc-webicon-facebook.png" />
+    <Content Include="images\icons\fc-webicon-flickr-m.png" />
+    <Content Include="images\icons\fc-webicon-flickr-s.png" />
+    <Content Include="images\icons\fc-webicon-flickr.png" />
+    <Content Include="images\icons\fc-webicon-foursquare-m.png" />
+    <Content Include="images\icons\fc-webicon-foursquare-s.png" />
+    <Content Include="images\icons\fc-webicon-foursquare.png" />
+    <Content Include="images\icons\fc-webicon-git-m.png" />
+    <Content Include="images\icons\fc-webicon-git-s.png" />
+    <Content Include="images\icons\fc-webicon-git.png" />
+    <Content Include="images\icons\fc-webicon-github-m.png" />
+    <Content Include="images\icons\fc-webicon-github-s.png" />
+    <Content Include="images\icons\fc-webicon-github.png" />
+    <Content Include="images\icons\fc-webicon-googleplay-m.png" />
+    <Content Include="images\icons\fc-webicon-googleplay-s.png" />
+    <Content Include="images\icons\fc-webicon-googleplay.png" />
+    <Content Include="images\icons\fc-webicon-googleplus-m.png" />
+    <Content Include="images\icons\fc-webicon-googleplus-s.png" />
+    <Content Include="images\icons\fc-webicon-googleplus.png" />
+    <Content Include="images\icons\fc-webicon-html5-m.png" />
+    <Content Include="images\icons\fc-webicon-html5-s.png" />
+    <Content Include="images\icons\fc-webicon-html5.png" />
+    <Content Include="images\icons\fc-webicon-icloud-m.png" />
+    <Content Include="images\icons\fc-webicon-icloud-s.png" />
+    <Content Include="images\icons\fc-webicon-icloud.png" />
+    <Content Include="images\icons\fc-webicon-instagram-m.png" />
+    <Content Include="images\icons\fc-webicon-instagram-s.png" />
+    <Content Include="images\icons\fc-webicon-instagram.png" />
+    <Content Include="images\icons\fc-webicon-lastfm-m.png" />
+    <Content Include="images\icons\fc-webicon-lastfm-s.png" />
+    <Content Include="images\icons\fc-webicon-lastfm.png" />
+    <Content Include="images\icons\fc-webicon-linkedin-m.png" />
+    <Content Include="images\icons\fc-webicon-linkedin-s.png" />
+    <Content Include="images\icons\fc-webicon-linkedin.png" />
+    <Content Include="images\icons\fc-webicon-mail-m.png" />
+    <Content Include="images\icons\fc-webicon-mail-s.png" />
+    <Content Include="images\icons\fc-webicon-mail.png" />
+    <Content Include="images\icons\fc-webicon-mercurial-m.png" />
+    <Content Include="images\icons\fc-webicon-mercurial-s.png" />
+    <Content Include="images\icons\fc-webicon-mercurial.png" />
+    <Content Include="images\icons\fc-webicon-mixi-m.png" />
+    <Content Include="images\icons\fc-webicon-mixi-s.png" />
+    <Content Include="images\icons\fc-webicon-mixi.png" />
+    <Content Include="images\icons\fc-webicon-msn-m.png" />
+    <Content Include="images\icons\fc-webicon-msn-s.png" />
+    <Content Include="images\icons\fc-webicon-msn.png" />
+    <Content Include="images\icons\fc-webicon-orkut-m.png" />
+    <Content Include="images\icons\fc-webicon-orkut-s.png" />
+    <Content Include="images\icons\fc-webicon-orkut.png" />
+    <Content Include="images\icons\fc-webicon-pinterest-m.png" />
+    <Content Include="images\icons\fc-webicon-pinterest-s.png" />
+    <Content Include="images\icons\fc-webicon-pinterest.png" />
+    <Content Include="images\icons\fc-webicon-quora-m.png" />
+    <Content Include="images\icons\fc-webicon-quora-s.png" />
+    <Content Include="images\icons\fc-webicon-quora.png" />
+    <Content Include="images\icons\fc-webicon-rdio-m.png" />
+    <Content Include="images\icons\fc-webicon-rdio-s.png" />
+    <Content Include="images\icons\fc-webicon-rdio.png" />
+    <Content Include="images\icons\fc-webicon-renren-m.png" />
+    <Content Include="images\icons\fc-webicon-renren-s.png" />
+    <Content Include="images\icons\fc-webicon-renren.png" />
+    <Content Include="images\icons\fc-webicon-rss-m.png" />
+    <Content Include="images\icons\fc-webicon-rss-s.png" />
+    <Content Include="images\icons\fc-webicon-rss.png" />
+    <Content Include="images\icons\fc-webicon-skitch-m.png" />
+    <Content Include="images\icons\fc-webicon-skitch-s.png" />
+    <Content Include="images\icons\fc-webicon-skitch.png" />
+    <Content Include="images\icons\fc-webicon-skype-m.png" />
+    <Content Include="images\icons\fc-webicon-skype-s.png" />
+    <Content Include="images\icons\fc-webicon-skype.png" />
+    <Content Include="images\icons\fc-webicon-soundcloud-m.png" />
+    <Content Include="images\icons\fc-webicon-soundcloud-s.png" />
+    <Content Include="images\icons\fc-webicon-soundcloud.png" />
+    <Content Include="images\icons\fc-webicon-spotify-m.png" />
+    <Content Include="images\icons\fc-webicon-spotify-s.png" />
+    <Content Include="images\icons\fc-webicon-spotify.png" />
+    <Content Include="images\icons\fc-webicon-stackoverflow-m.png" />
+    <Content Include="images\icons\fc-webicon-stackoverflow-s.png" />
+    <Content Include="images\icons\fc-webicon-stackoverflow.png" />
+    <Content Include="images\icons\fc-webicon-stumbleupon-m.png" />
+    <Content Include="images\icons\fc-webicon-stumbleupon-s.png" />
+    <Content Include="images\icons\fc-webicon-stumbleupon.png" />
+    <Content Include="images\icons\fc-webicon-svn-m.png" />
+    <Content Include="images\icons\fc-webicon-svn-s.png" />
+    <Content Include="images\icons\fc-webicon-svn.png" />
+    <Content Include="images\icons\fc-webicon-tent-m.png" />
+    <Content Include="images\icons\fc-webicon-tent-s.png" />
+    <Content Include="images\icons\fc-webicon-tent.png" />
+    <Content Include="images\icons\fc-webicon-tripadvisor-m.png" />
+    <Content Include="images\icons\fc-webicon-tripadvisor-s.png" />
+    <Content Include="images\icons\fc-webicon-tripadvisor.png" />
+    <Content Include="images\icons\fc-webicon-tumblr-m.png" />
+    <Content Include="images\icons\fc-webicon-tumblr-s.png" />
+    <Content Include="images\icons\fc-webicon-tumblr.png" />
+    <Content Include="images\icons\fc-webicon-twitter-m.png" />
+    <Content Include="images\icons\fc-webicon-twitter-s.png" />
+    <Content Include="images\icons\fc-webicon-twitter.png" />
+    <Content Include="images\icons\fc-webicon-vimeo-m.png" />
+    <Content Include="images\icons\fc-webicon-vimeo-s.png" />
+    <Content Include="images\icons\fc-webicon-vimeo.png" />
+    <Content Include="images\icons\fc-webicon-weibo-m.png" />
+    <Content Include="images\icons\fc-webicon-weibo-s.png" />
+    <Content Include="images\icons\fc-webicon-weibo.png" />
+    <Content Include="images\icons\fc-webicon-windows-m.png" />
+    <Content Include="images\icons\fc-webicon-windows-s.png" />
+    <Content Include="images\icons\fc-webicon-windows.png" />
+    <Content Include="images\icons\fc-webicon-wordpress-m.png" />
+    <Content Include="images\icons\fc-webicon-wordpress-s.png" />
+    <Content Include="images\icons\fc-webicon-wordpress.png" />
+    <Content Include="images\icons\fc-webicon-xing-m.png" />
+    <Content Include="images\icons\fc-webicon-xing-s.png" />
+    <Content Include="images\icons\fc-webicon-xing.png" />
+    <Content Include="images\icons\fc-webicon-yahoo.png" />
+    <Content Include="images\icons\fc-webicon-yelp-m.png" />
+    <Content Include="images\icons\fc-webicon-yelp-s.png" />
+    <Content Include="images\icons\fc-webicon-yelp.png" />
+    <Content Include="images\icons\fc-webicon-youtube-m.png" />
+    <Content Include="images\icons\fc-webicon-youtube-s.png" />
+    <Content Include="images\icons\fc-webicon-youtube.png" />
+    <Content Include="images\icons\fc-webicon-youversion-m.png" />
+    <Content Include="images\icons\fc-webicon-youversion-s.png" />
+    <Content Include="images\icons\fc-webicon-youversion.png" />
+    <Content Include="images\icons\fc-webicon-zerply-m.png" />
+    <Content Include="images\icons\fc-webicon-zerply-s.png" />
+    <Content Include="images\icons\fc-webicon-zerply.png" />
+    <Content Include="images\menuicon-mobile.png" />
+    <Content Include="images\mobilelogo-checkout.png" />
+    <Content Include="images\m_banner100anddelivery.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\noiwillcorrectmyaddress.bmp" />
+    <Content Include="images\ordernow-btn.gif" />
+    <Content Include="images\ordernow-btnhover.gif" />
+    <Content Include="images\ordernownew08.gif" />
+    <Content Include="images\secureicon.png" />
+    <Content Include="images\steps-bg-grey.png" />
+    <Content Include="images\steps-bg.png" />
+    <Content Include="images\submit-hover.gif" />
+    <Content Include="images\submit.gif" />
+    <Content Include="images\usetheaddressIentered.bmp" />
+    <Content Include="images\usethisaddress.bmp" />
+    <Content Include="images\white-arrow.png" />
+    <Content Include="images\yes.bmp" />
+    <Content Include="International.aspx" />
+    <Content Include="javascripts\owl.carousel-min.js" />
+    <Content Include="javascripts\owl.carousel.js" />
+    <Content Include="ProductXMLs\DefaultProducts.xml" />
+    <Content Include="Scripts\aesEncryption.js" />
+    <Content Include="Scripts\ajaxload.js" />
+    <Content Include="Scripts\commonfunctions.js" />
+    <Content Include="Scripts\m_confirmation.js" />
+    <Content Include="Scripts\m_customerdetails.js" />
+    <Content Include="Scripts\m_login.js" />
+    <Content Include="Scripts\modalpopup.js" />
+    <Content Include="Scripts\m_recipientdetails.js" />
+    <Content Include="Scripts\m_ResetPwd.js" />
+    <Content Include="Scripts\step2functions.js" />
+    <Content Include="Scripts\step1functions.js" />
+    <Content Include="stylesheets\app.css" />
+    <Content Include="stylesheets\custom.css" />
+    <Content Include="stylesheets\foundation.css" />
+    <Content Include="stylesheets\foundation.min.css" />
+    <Content Include="stylesheets\images\ajax-loader.gif" />
+    <Content Include="stylesheets\images\icons-18-black.png" />
+    <Content Include="stylesheets\images\icons-18-white.png" />
+    <Content Include="stylesheets\images\icons-36-black.png" />
+    <Content Include="stylesheets\images\icons-36-white.png" />
+    <Content Include="stylesheets\jquery.mobile-1.3.1.css" />
+    <Content Include="stylesheets\jquery.mobile.structure-1.3.1.min.css" />
+    <Content Include="stylesheets\jquery.mobile.theme-1.3.1.min.css" />
+    <Content Include="stylesheets\owl.carousel.css" />
+    <Content Include="stylesheets\owl.theme.css" />
+    <Content Include="stylesheets\serenata-flowers.min.css" />
+    <Content Include="stylesheets\serenata.min.css" />
+    <Content Include="Styles\m_style.css" />
+    <Content Include="Termsandcond.aspx" />
+    <Content Include="upsells\upsells-608-8.xml" />
+    <Content Include="ViewProduct.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Default.aspx" />
+    <Content Include="XML\Banner.xml" />
+    <Content Include="XML\DHPPResponseCodes.xml" />
+    <Content Include="XML\DefaultProducts.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XML\FloodlightTag.xml" />
+    <Content Include="XML\MetaData.xml" />
+    <Content Include="XML\ProductTypesCategories.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AjaxLoader\AjaxLoader.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="amazonLocal5.aspx.cs">
+      <DependentUpon>amazonLocal5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="amazonLocal5.aspx.designer.cs">
+      <DependentUpon>amazonLocal5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_checkoutCancel.aspx.cs">
+      <DependentUpon>m_checkoutCancel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_checkoutCancel.aspx.designer.cs">
+      <DependentUpon>m_checkoutCancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_checkoutReview.aspx.cs">
+      <DependentUpon>m_checkoutReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_checkoutReview.aspx.designer.cs">
+      <DependentUpon>m_checkoutReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\CustomerDetails.aspx.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\CustomerDetails.aspx.designer.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_confirmation.aspx.cs">
+      <DependentUpon>m_confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_confirmation.aspx.designer.cs">
+      <DependentUpon>m_confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_customerdetails.aspx.cs">
+      <DependentUpon>m_customerdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_customerdetails.aspx.designer.cs">
+      <DependentUpon>m_customerdetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_dhppResponse.aspx.cs">
+      <DependentUpon>m_dhppResponse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_dhppResponse.aspx.designer.cs">
+      <DependentUpon>m_dhppResponse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_expressCheckout.aspx.cs">
+      <DependentUpon>m_expressCheckout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_expressCheckout.aspx.designer.cs">
+      <DependentUpon>m_expressCheckout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_login.aspx.cs">
+      <DependentUpon>m_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_login.aspx.designer.cs">
+      <DependentUpon>m_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_paymentdetails.aspx.cs">
+      <DependentUpon>m_paymentdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_paymentdetails.aspx.designer.cs">
+      <DependentUpon>m_paymentdetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_recipientdetails.aspx.cs">
+      <DependentUpon>m_recipientdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_recipientdetails.aspx.designer.cs">
+      <DependentUpon>m_recipientdetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_resetpassword.aspx.cs">
+      <DependentUpon>m_resetpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_resetpassword.aspx.designer.cs">
+      <DependentUpon>m_resetpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_summary.aspx.cs">
+      <DependentUpon>m_summary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_summary.aspx.designer.cs">
+      <DependentUpon>m_summary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\m_upsells.aspx.cs">
+      <DependentUpon>m_upsells.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\m_upsells.aspx.designer.cs">
+      <DependentUpon>m_upsells.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\RecipientDetails.aspx.cs">
+      <DependentUpon>RecipientDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\RecipientDetails.aspx.designer.cs">
+      <DependentUpon>RecipientDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CommonFunctions.cs" />
+    <Compile Include="Common\Rijndael.cs" />
+    <Compile Include="Common\Sessions.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactPage.aspx.cs">
+      <DependentUpon>ContactPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactPage.aspx.designer.cs">
+      <DependentUpon>ContactPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BasketCount.ascx.cs">
+      <DependentUpon>BasketCount.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BasketCount.ascx.designer.cs">
+      <DependentUpon>BasketCount.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CheckoutFooter.ascx.cs">
+      <DependentUpon>CheckoutFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CheckoutFooter.ascx.designer.cs">
+      <DependentUpon>CheckoutFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CheckoutHeader.ascx.cs">
+      <DependentUpon>CheckoutHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CheckoutHeader.ascx.designer.cs">
+      <DependentUpon>CheckoutHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContactUs.ascx.cs">
+      <DependentUpon>ContactUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ContactUs.ascx.designer.cs">
+      <DependentUpon>ContactUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ETEmailVerfiy.ascx.cs">
+      <DependentUpon>ETEmailVerfiy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ETEmailVerfiy.ascx.designer.cs">
+      <DependentUpon>ETEmailVerfiy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PromptLogin.ascx.cs">
+      <DependentUpon>PromptLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PromptLogin.ascx.designer.cs">
+      <DependentUpon>PromptLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EditBasket.ascx.cs">
+      <DependentUpon>EditBasket.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EditBasket.ascx.designer.cs">
+      <DependentUpon>EditBasket.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EditDeliveryDate.ascx.cs">
+      <DependentUpon>EditDeliveryDate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EditDeliveryDate.ascx.designer.cs">
+      <DependentUpon>EditDeliveryDate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\m_Privacy.ascx.cs">
+      <DependentUpon>m_Privacy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\m_Privacy.ascx.designer.cs">
+      <DependentUpon>m_Privacy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\m_Terms.ascx.cs">
+      <DependentUpon>m_Terms.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\m_Terms.ascx.designer.cs">
+      <DependentUpon>m_Terms.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Panel.ascx.cs">
+      <DependentUpon>Panel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Panel.ascx.designer.cs">
+      <DependentUpon>Panel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PasswordReminder.ascx.cs">
+      <DependentUpon>PasswordReminder.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PasswordReminder.ascx.designer.cs">
+      <DependentUpon>PasswordReminder.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ViewCustomerDetails.ascx.cs">
+      <DependentUpon>ViewCustomerDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ViewCustomerDetails.ascx.designer.cs">
+      <DependentUpon>ViewCustomerDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ViewRecipientDetails.ascx.cs">
+      <DependentUpon>ViewRecipientDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ViewRecipientDetails.ascx.designer.cs">
+      <DependentUpon>ViewRecipientDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Voucher.ascx.cs">
+      <DependentUpon>Voucher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Voucher.ascx.designer.cs">
+      <DependentUpon>Voucher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="m_OrderTracking.aspx.cs">
+      <DependentUpon>m_OrderTracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m_OrderTracking.aspx.designer.cs">
+      <DependentUpon>m_OrderTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestMail.aspx.cs">
+      <DependentUpon>TestMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestMail.aspx.designer.cs">
+      <DependentUpon>TestMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flower_delivery.aspx.cs">
+      <DependentUpon>Flower_delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flower_delivery.aspx.designer.cs">
+      <DependentUpon>Flower_delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="International.aspx.cs">
+      <DependentUpon>International.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="International.aspx.designer.cs">
+      <DependentUpon>International.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Termsandcond.aspx.cs">
+      <DependentUpon>Termsandcond.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Termsandcond.aspx.designer.cs">
+      <DependentUpon>Termsandcond.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProduct.aspx.cs">
+      <DependentUpon>ViewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewProduct.aspx.designer.cs">
+      <DependentUpon>ViewProduct.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SerenataOrderSchemaBAL\SerenataOrderSchemaBAL.csproj">
+      <Project>{9254BE6A-089B-466B-A013-ABA8569D401B}</Project>
+      <Name>SerenataOrderSchemaBAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.Bal\Serenata_Checkout.Bal.csproj">
+      <Project>{7270BF4B-2174-4BE6-8868-77FCC3EC8734}</Project>
+      <Name>Serenata_Checkout.Bal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.ChilkatComponent\Serenata_Checkout.ChilkatComponent.csproj">
+      <Project>{535B0A99-327B-4FE8-9F95-E4034713ADB2}</Project>
+      <Name>Serenata_Checkout.ChilkatComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.Dto\Serenata_Checkout.Dto.csproj">
+      <Project>{EE9E5EAF-507C-4074-948D-315D6794E7D0}</Project>
+      <Name>Serenata_Checkout.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.ExactTargetAPI\Serenata_Checkout.ExactTargetAPI.csproj">
+      <Project>{781DC651-285C-4232-BC05-A49EB678542B}</Project>
+      <Name>Serenata_Checkout.ExactTargetAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.Logic\Serenata_Checkout.Logic.csproj">
+      <Project>{4AADD4AB-7E6B-4884-B9D2-BCFEBB75AFB8}</Project>
+      <Name>Serenata_Checkout.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.PaymentGateway\Serenata_Checkout.PaymentGateway.csproj">
+      <Project>{AA4B015A-9A8A-46B3-8E60-36F917C1DD07}</Project>
+      <Name>Serenata_Checkout.PaymentGateway</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SFMobile.BAL\SFMobile.BAL.csproj">
+      <Project>{8B82CD40-EF33-42E8-9B85-6965E95FFEEB}</Project>
+      <Name>SFMobile.BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SFMobile.DAL\SFMobile.DAL.csproj">
+      <Project>{49B0806B-4082-4792-88E6-EE3D48DE752D}</Project>
+      <Name>SFMobile.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SFMobile.DTO\SFMobile.DTO.csproj">
+      <Project>{E1EA8394-721A-429C-8A98-E6E324928B8A}</Project>
+      <Name>SFMobile.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Encryption\xml\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\icons\fc-webicon-aboutme.svg" />
+    <None Include="images\icons\fc-webicon-adn.svg" />
+    <None Include="images\icons\fc-webicon-android.svg" />
+    <None Include="images\icons\fc-webicon-apple.svg" />
+    <None Include="images\icons\fc-webicon-behance.svg" />
+    <None Include="images\icons\fc-webicon-bitbucket.svg" />
+    <None Include="images\icons\fc-webicon-creativecloud.svg" />
+    <None Include="images\icons\fc-webicon-dribbble.svg" />
+    <None Include="images\icons\fc-webicon-dropbox.svg" />
+    <None Include="images\icons\fc-webicon-evernote.svg" />
+    <None Include="images\icons\fc-webicon-facebook.svg" />
+    <None Include="images\icons\fc-webicon-flickr.svg" />
+    <None Include="images\icons\fc-webicon-foursquare.svg" />
+    <None Include="images\icons\fc-webicon-git.svg" />
+    <None Include="images\icons\fc-webicon-github.svg" />
+    <None Include="images\icons\fc-webicon-googleplay.svg" />
+    <None Include="images\icons\fc-webicon-googleplus.svg" />
+    <None Include="images\icons\fc-webicon-html5.svg" />
+    <None Include="images\icons\fc-webicon-icloud.svg" />
+    <None Include="images\icons\fc-webicon-instagram.svg" />
+    <None Include="images\icons\fc-webicon-lastfm.svg" />
+    <None Include="images\icons\fc-webicon-linkedin.svg" />
+    <None Include="images\icons\fc-webicon-mail.svg" />
+    <None Include="images\icons\fc-webicon-mercurial.svg" />
+    <None Include="images\icons\fc-webicon-mixi.svg" />
+    <None Include="images\icons\fc-webicon-msn.svg" />
+    <None Include="images\icons\fc-webicon-orkut.svg" />
+    <None Include="images\icons\fc-webicon-pinterest.svg" />
+    <None Include="images\icons\fc-webicon-quora.svg" />
+    <None Include="images\icons\fc-webicon-rdio.svg" />
+    <None Include="images\icons\fc-webicon-renren.svg" />
+    <None Include="images\icons\fc-webicon-rss.svg" />
+    <None Include="images\icons\fc-webicon-skitch.svg" />
+    <None Include="images\icons\fc-webicon-skype.svg" />
+    <None Include="images\icons\fc-webicon-soundcloud.svg" />
+    <None Include="images\icons\fc-webicon-spotify.svg" />
+    <None Include="images\icons\fc-webicon-stackoverflow.svg" />
+    <None Include="images\icons\fc-webicon-stumbleupon.svg" />
+    <None Include="images\icons\fc-webicon-svn.svg" />
+    <None Include="images\icons\fc-webicon-tent.svg" />
+    <None Include="images\icons\fc-webicon-tripadvisor.svg" />
+    <None Include="images\icons\fc-webicon-tumblr.svg" />
+    <None Include="images\icons\fc-webicon-twitter.svg" />
+    <None Include="images\icons\fc-webicon-vimeo.svg" />
+    <None Include="images\icons\fc-webicon-weibo.svg" />
+    <None Include="images\icons\fc-webicon-windows.svg" />
+    <None Include="images\icons\fc-webicon-wordpress.svg" />
+    <None Include="images\icons\fc-webicon-xing.svg" />
+    <None Include="images\icons\fc-webicon-yahoo.svg" />
+    <None Include="images\icons\fc-webicon-yelp.svg" />
+    <None Include="images\icons\fc-webicon-youtube.svg" />
+    <None Include="images\icons\fc-webicon-youversion.svg" />
+    <None Include="images\icons\fc-webicon-zerply.svg" />
+    <None Include="Properties\PublishProfiles\vb.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="CDO">
+      <Guid>{CD000000-8B95-11D1-82DB-00C04FB1625D}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1996</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/mobilecheckout</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

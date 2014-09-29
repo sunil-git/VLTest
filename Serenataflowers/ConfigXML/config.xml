@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<request>
+	<config>
+		<callbackURL>
+			<![CDATA[https://admin.serenata.co.uk/admin/paymentGateway/callback.asp]]>
+		</callbackURL>
+		<confirmationURL>
+			<![CDATA[https://@DomainName/checkout/m_confirmation.aspx?s=@OrderID@]]>
+		</confirmationURL>
+		<checkoutRootURL>
+			<![CDATA[https://@DomainName/checkout/]]>
+		</checkoutRootURL>
+		<rootURL>
+			<![CDATA[https://@DomainName/]]>
+		</rootURL>
+		<summaryURL>
+			<![CDATA[https://@DomainName/checkout/m_summary.aspx?s=@OrderID@]]>
+		</summaryURL>
+		<step1URL>
+			<![CDATA[https://@DomainName/checkout/m_step1.aspx?back=yes&s=@OrderID@]]>
+		</step1URL>
+		<step2URL>
+			<![CDATA[https://@DomainName/checkout/m_step2.aspx?s=@OrderID@]]>
+		</step2URL>
+    <paypalcancelURL>
+      <![CDATA[https://@DomainName/checkout/m_checkoutCancel.aspx?t=@filename@&s=@orderid@]]>
+    </paypalcancelURL>
+    <paypalURL>
+      <![CDATA[https://@DomainName/checkout/m_expressCheckout.aspx?t=@filename@&s=@orderid@]]>
+    </paypalURL>
+		<paymentURL>
+			<![CDATA[https://transaction.serenata.co.uk/payment.asp?s=@OrderID@]]>
+		</paymentURL>
+		<thawteURL>
+			<![CDATA[https://www.thawte.com/cgi/server/certdetails.exe?code=]]>
+		</thawteURL>
+		<hackerSafeURL>
+			<![CDATA[https://www.scanalert.com/RatingVerify?ref=@DomainName]]>
+		</hackerSafeURL>
+		<baseSiteURL>
+			<![CDATA[http://@DomainName/]]>
+		</baseSiteURL>
+	</config>
+</request>

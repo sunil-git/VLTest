@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+	<banners>
+    <!-- details of each product -->
+    <category Id="9999" linkUrl="http://m.serenataflowers.com/m_OrderTracking.aspx">
+      <![CDATA[http://images.serenataflowers.com/m_banner-tracking.jpg]]>
+    </category>
+    <category Id="148" linkUrl="#">
+      <![CDATA[http://images.serenataflowers.com/m-banner-vday.jpg]]>
+    </category>
+  </banners>
+
+
+
+
+

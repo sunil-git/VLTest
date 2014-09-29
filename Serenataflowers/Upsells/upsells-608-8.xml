@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<response>
+	<generationDate>12/7/2012 13:01:59</generationDate>
+	<!-- the list of products -->
+	<categories>
+		<category>
+			<name>Gorgeous Vases</name>
+			<info>Fashionable high quality clear glass vases guaranteed to provoke admiring glances</info>
+			<products>
+				<!-- details of each product -->
+        <product id="517">
+          <name><![CDATA[Twiggy Column Vase]]></name>
+          <!-- title -->
+          <info2><![CDATA[A modern 30cm-tall clear glass vase with clean, straight verticals that accentuate the beauty of taller flowers and tropicals.]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">9.99</price>
+          <offer onOffer="0">0.00</offer>
+          <offerStartDate>2011-05-01 00:00:00</offerStartDate>
+          <offerEndDate>2010-06-10 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">9.99</testPrice>
+            <testPrice id="B">9.99</testPrice>
+            <testPrice id="C">9.99</testPrice>
+            <testPrice id="D">9.99</testPrice>
+            <testPrice id="E">9.99</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_low_1_517.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/big_high_1_517.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_high_1_517.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_high_2_517.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/big_high_2_517.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_high_3_517.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/big_high_3_517.jpg]]></image>
+            <domainID>2</domainID>
+          </images>
+        </product>
+				<product id="692">
+					<name><![CDATA[Black Cube Vase]]></name>
+					<!-- title -->
+					<info2><![CDATA[High impact planters that work equally well indoors or outdoors, the Cubix planter is available in three colour finishes, black, brushed steel and copper.  <br><br>  Made from galvanised steel<br>  Double seams<br>  Rolled tops<br>  Dimensions: 30cm x 30cm x 30cm<br>]]></info2>
+					<partnerID>608</partnerID>
+					<deliveryPartnerID>8</deliveryPartnerID>
+					<soldOut>0</soldOut>
+					<videoData></videoData>
+					<reviewData></reviewData>
+					<price type="retail">9.99</price>
+					<offer onOffer="0">0.00</offer>
+					<offerStartDate>2007-05-07 00:00:00</offerStartDate>
+					<offerEndDate>2007-05-07 00:00:00</offerEndDate>
+					<testPrices>
+						<testPrice id="A">0</testPrice>
+						<testPrice id="B">0</testPrice>
+						<testPrice id="C">0</testPrice>
+						<testPrice id="D">0</testPrice>
+						<testPrice id="E">0</testPrice>
+					</testPrices>
+					<!-- each of the images associated with the product -->
+					<images>
+						<image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_692.jpg]]></image>
+						<image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_692.jpg]]></image>
+						<image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_692.jpg]]></image>
+						<image id="img2SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_2_692.jpg]]></image>
+						<image id="img2BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_2_692.jpg]]></image>
+						<image id="img3SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_3_692.jpg]]></image>
+						<image id="img3BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_3_692.jpg]]></image>
+						<domainID>1</domainID>
+					</images>
+				</product>
+        <product id="517">
+          <name><![CDATA[Twiggy Column Vase]]></name>
+          <!-- title -->
+          <info2><![CDATA[A modern 30cm-tall clear glass vase with clean, straight verticals that accentuate the beauty of taller flowers and tropicals.]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">9.99</price>
+          <offer onOffer="0">0.00</offer>
+          <offerStartDate>2011-05-01 00:00:00</offerStartDate>
+          <offerEndDate>2010-06-10 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">9.99</testPrice>
+            <testPrice id="B">9.99</testPrice>
+            <testPrice id="C">9.99</testPrice>
+            <testPrice id="D">9.99</testPrice>
+            <testPrice id="E">9.99</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_low_1_517.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/big_high_1_517.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_high_1_517.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_high_2_517.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/big_high_2_517.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/small_high_3_517.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[https://productimages.serenataflowers.com/big_high_3_517.jpg]]></image>
+            <domainID>2</domainID>
+          </images>
+        </product>
+        <product id="692">
+          <name><![CDATA[Black Cube Vase]]></name>
+          <!-- title -->
+          <info2><![CDATA[High impact planters that work equally well indoors or outdoors, the Cubix planter is available in three colour finishes, black, brushed steel and copper.  <br><br>  Made from galvanised steel<br>  Double seams<br>  Rolled tops<br>  Dimensions: 30cm x 30cm x 30cm<br>]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">9.99</price>
+          <offer onOffer="0">0.00</offer>
+          <offerStartDate>2007-05-07 00:00:00</offerStartDate>
+          <offerEndDate>2007-05-07 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">0</testPrice>
+            <testPrice id="B">0</testPrice>
+            <testPrice id="C">0</testPrice>
+            <testPrice id="D">0</testPrice>
+            <testPrice id="E">0</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_692.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_692.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_692.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_2_692.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_2_692.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_3_692.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_3_692.jpg]]></image>
+            <domainID>1</domainID>
+          </images>
+        </product>
+			</products>
+		</category>
+    <category>
+      <name>Teddy</name>
+      <info>Cuddly teddy bears, they are bound to bring delight and a smile to the recipient. </info>
+      <products>
+        <!-- details of each product -->
+        <product id="563">
+          <name><![CDATA[Pink Teddy Bear]]></name>
+          <!-- title -->
+          <info2><![CDATA[A perfect gift to celebrate the arrival of a baby girl. A pink, plush teddy bear with ribbon.]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">4.99</price>
+          <offer onOffer="0">0.00</offer>
+          <offerStartDate>2010-05-07 00:00:00</offerStartDate>
+          <offerEndDate>2011-12-07 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">9.99</testPrice>
+            <testPrice id="B">9.99</testPrice>
+            <testPrice id="C">9.99</testPrice>
+            <testPrice id="D">9.99</testPrice>
+            <testPrice id="E">9.99</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_563.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_563.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_563.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_2_563.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_2_563.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_3_563.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_3_563.jpg]]></image>
+            <domainID>1</domainID>
+          </images>
+        </product>
+      </products>
+    </category>
+    <category>
+      <name>Chocolate, Birthday cake &amp; Birthday Box</name>
+      <info>Delicious chocolate and a stylish birthday box. </info>
+      <products>
+        <!-- details of each product -->
+        <product id="614">
+          <name><![CDATA[Chocolate Box - Large]]></name>
+          <!-- title -->
+          <info2><![CDATA[750 grams of delicious mixed chocolates, beautifully made by a local confectioner. Mouthwatering!!]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">14.99</price>
+          <offer onOffer="0">0</offer>
+          <offerStartDate>2007-05-07 00:00:00</offerStartDate>
+          <offerEndDate>2007-05-07 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">0</testPrice>
+            <testPrice id="B">0</testPrice>
+            <testPrice id="C">0</testPrice>
+            <testPrice id="D">0</testPrice>
+            <testPrice id="E">0</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_614.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_614.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_614.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_2_614.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_2_614.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_3_614.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_3_614.jpg]]></image>
+            <domainID>2</domainID>
+          </images>
+        </product>
+        <product id="711">
+          <name><![CDATA[Chocolate Chunk & Hazelnut]]></name>
+          <!-- title -->
+          <info2><![CDATA[Delicious chocolate chunk & hazelnut cookies presented in a metal box. A perfect complement to tea or coffee. Weight 375g.]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">9.99</price>
+          <offer onOffer="0">0.00</offer>
+          <offerStartDate>2007-05-07 00:00:00</offerStartDate>
+          <offerEndDate>2007-05-07 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">0</testPrice>
+            <testPrice id="B">0</testPrice>
+            <testPrice id="C">0</testPrice>
+            <testPrice id="D">0</testPrice>
+            <testPrice id="E">0</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_711.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_711.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_711.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_2_711.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_2_711.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_3_711.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_3_711.jpg]]></image>
+            <domainID>2</domainID>
+          </images>
+        </product>
+      </products>
+    </category>
+    <category>
+      <name>Balloons</name>
+      <info>Why not surprise with a helium balloon? </info>
+      <products>
+        <!-- details of each product -->
+        <product id="1172">
+          <name><![CDATA[Congratulations baloon]]></name>
+          <!-- title -->
+          <info2><![CDATA[Complete your gift with one of our balloons.Whatever the occasion a `Congratulations` balloon is sure to make someone`s day!    ]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">6.99</price>
+          <offer onOffer="0">0.00</offer>
+          <offerStartDate>2007-08-15 00:00:00</offerStartDate>
+          <offerEndDate>2007-08-15 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">0</testPrice>
+            <testPrice id="B">0</testPrice>
+            <testPrice id="C">0</testPrice>
+            <testPrice id="D">0</testPrice>
+            <testPrice id="E">0</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_1172.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_1172.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_1172.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_2_1172.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_2_1172.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_3_1172.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_3_1172.jpg]]></image>
+            <domainID>2</domainID>
+          </images>
+        </product>
+        <product id="86023">
+          <name><![CDATA[Large Birthday- Happy balloon]]></name>
+          <!-- title -->
+          <info2><![CDATA[A modern 30cm-tall clear glass vase with clean, straight verticals that accentuate the beauty of taller flowers and tropicals.]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">6.99</price>
+          <offer onOffer="0">0</offer>
+          <offerStartDate>2010-10-27 00:00:00</offerStartDate>
+          <offerEndDate>2010-10-27 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">0</testPrice>
+            <testPrice id="B">0</testPrice>
+            <testPrice id="C">0</testPrice>
+            <testPrice id="D">0</testPrice>
+            <testPrice id="E">0</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_86023.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_86023.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_86023.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[]]></image>
+            <domainID>4</domainID>
+          </images>
+        </product>
+      </products>
+    </category>
+    <category>
+      <name>Wines &amp; Champagne</name>
+      <info>Hand picked by our in-house sommelier. It's always a time to celebrate or just enjoy a nice glas. </info>
+      <products>
+        <!-- details of each product -->
+        <product id="76500">
+          <name><![CDATA[Champagne - Bauget Jouette]]></name>
+          <!-- title -->
+          <info2><![CDATA[Champagne Bauget-Jouette Based in Epernay, this Champagne house dates back to 1822 when they would sell their grapes to other Champagne houses. They have been making Champagne from their vines since 1949 and by the early 1980s demand for their wines had grown to such an extent that they started also buying grapes from other high quality growers in the region in order to produce enough Champagne to satisfy demand. These days, the estate is run by Jean-Pierre Bauget and his wife Beatrice, who own 14ha of vines around Epernay, where Chardonnay is the predominant variety planted. They still use the original 18th century cellars which are dug 27 metres into the chalk below Epernay.       ]]></info2>
+          <partnerID>608</partnerID>
+          <deliveryPartnerID>8</deliveryPartnerID>
+          <soldOut>0</soldOut>
+          <videoData></videoData>
+          <reviewData></reviewData>
+          <price type="retail">34.99</price>
+          <offer onOffer="0">0.00</offer>
+          <offerStartDate>2010-01-21 00:00:00</offerStartDate>
+          <offerEndDate>2010-01-21 00:00:00</offerEndDate>
+          <testPrices>
+            <testPrice id="A">0</testPrice>
+            <testPrice id="B">0</testPrice>
+            <testPrice id="C">0</testPrice>
+            <testPrice id="D">0</testPrice>
+            <testPrice id="E">0</testPrice>
+          </testPrices>
+          <!-- each of the images associated with the product -->
+          <images>
+            <image id="img1SmallLow" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_low_1_76500.jpg]]></image>
+            <image id="img1BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_1_76500.jpg]]></image>
+            <image id="img1SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_1_76500.jpg]]></image>
+            <image id="img2SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_2_76500.jpg]]></image>
+            <image id="img2BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_2_76500.jpg]]></image>
+            <image id="img3SmallHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/small_high_3_76500.jpg]]></image>
+            <image id="img3BigHigh" height="152" width="130"><![CDATA[http://productimages.serenataflowers.com/big_high_3_76500.jpg]]></image>
+            <domainID>4</domainID>
+          </images>
+        </product>
+      </products>
+    </category>
+	</categories>
+</response>

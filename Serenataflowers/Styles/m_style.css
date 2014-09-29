@@ -1,0 +1,447 @@
+/* reset */
+/*** Added by VL on 06/07/2011 ***/
+	/* Portrait */
+
+.header{ margin-bottom:5px; margin-left:-2px}
+.banner{margin-bottom:6px; margin-top:4px; border-bottom:1px dotted #ccc; padding-bottom:4px;}
+.fleft{float:left; width:38%; padding-top:5px; } .fright{float:right}
+.divrow{float:none; clear:both; }
+.divrow div{float:left;  width:45%; margin-top:5px; margin-bottom:5px;}
+.divrow input{margin-bottom:10px; height:20px}
+.divrow1 input{margin-bottom:10px; height:23px; cursor:pointer;}
+.dottedline{border-bottom:1px dotted #c2d799; width:100%; float:left}
+.dottedlinetopbtm{ border-bottom: 1px dotted #C2D799;border-top: 1px dotted #C2D799;float: none;margin-bottom: 20px;padding-top: 10px;text-align: center;width: 100%;}
+.clear{clear:both}
+.rdobtnrow{width:100% !important; line-height:20px;}
+.error{border-bottom:1px dotted #c2d799; width:100%; float:left;background-color: #FF6633;}
+/******************************/
+
+/* reset */
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6{margin:0;padding:0; -webkit-text-size-adjust:none;}  
+body{font-size:13px;background:#fff; font-family: Helvetica, sans-serif;color:#666;}  
+body p {line-height:1.5em;}
+ul, li, ol, dl, dd, dt{list-style:none;padding:0;margin:0;}
+select, option {color:#666;font-size:11px;padding:2px;}
+
+h1, h1 a {font:normal 23px helvetica, "Century Gothic", Palatino Linotype, tahoma, verdana, sans-serif;color:#84904f;margin:0;}
+h2, h2 a {font:normal 23px helvetica, "Century Gothic", Palatino Linotype, tahoma, verdana, sans-serif;color:#84904f;margin:0;}
+h3, h3 a {font:bold 18px helvetica, "Century Gothic", Palatino Linotype, tahoma, verdana, sans-serif;color:#99b174;margin-top:0;}
+h4, h4 a {font:bold 14px helvetica, tahoma, verdana, sans-serif;color:#84904f;margin-top:0;}
+h5 {font:normal 10px tahoma, verdana, sans-serif;margin:0;padding:0 0 3px 0;}
+h6 {font:bold 16px "Century Gothic", Palatino Linotype, helvetica, tahoma, verdana, sans-serif;color:#99b174;margin:4px 0 0 0;text-align:center;border-bottom:solid 1px #ccdba7;}
+
+a{text-decoration:none;}  
+
+.prodimg {float:left;width:135px; height:auto;margin:7px 0px 7px 7px; padding:0 0 5px 0;background:#f1f1f1 url(https://www.serenataflowers.com/images/prodbg_normal.jpg) bottom left no-repeat;border:1px solid #d8d6d6;border-spacing: 0;border-collapse:collapse;}
+.onmouse {float:left;width:135px; height:auto;margin:7px 2px 7px 1px; padding:0 0 5px 0;background:#ddf2c3 url(https://www.serenataflowers.com/images/prodbg_hover.jpg) bottom left no-repeat;border:1px solid #a5b856;border-spacing: 0;border-collapse:collapse;}
+	.upsell {width:70px;height:150px;}
+	.prodimgbottom {height:44px; text-align:center;margin:0 auto;padding:4px 2px 0 2px;}
+	.ratting {height:25px; text-align:center;margin:0 auto;padding:2px 2px 0 2px;}
+	.prodimg h3, .prodimg h3 a {font:normal 10px tahoma, verdana, sans-serif;margin:0;padding:0 0 3px 0;}
+	.prodbuttons {margin:0 auto;padding:4px 0 0 7px;height:30px;}
+	.prodtitle {font:normal 10px tahoma, verdana, sans-serif;}
+	.oldprice {font:bold 12px "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",tahoma, Verdana; color:#717171;text-decoration:line-through;}
+	.offerprice {font:bold 14px "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",tahoma, Verdana; color:red;}
+	.normalprice {font:normal 14px "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",tahoma, Verdana; color:#3e3e3e;}
+	.zoombtn {margin:3px 0 0 1px;float:left;}
+	.prodoverlay_wrapper {margin: 0;position: relative;width: 100%;height: 165px;}
+	.prodoverlay_wrapper a {text-decoration: none;}
+	.prodoverlay_wrapper em {height:17px;width:150px;color: orange;font: bold 10px tahoma, verdana, sans-serif;padding: 2px 0 0 0;display: block;position: absolute;top: 10px;right: 4px;text-align:right;}
+
+.searchbox {width: 280px;height: 30px;background: url(https://www.serenataflowers.com/images/m_searchbg.gif);margin:10px 0 10px 0px;}
+.searchbox .s {float: left;padding: 0;margin: 8px 0 0 6px;border: 0;width: 240px;background: none;font:normal 12px tahoma, arial, sans-serif;color:#afafaf;}
+.searchbox .sn {float: left;padding: 0;margin: 6px 0 0 6px;border: 0;width: 136px;background: none;font:normal 12px tahoma, arial, sans-serif;color:#000;font-style:normal;font-weight: bold;}
+.searchbox .go {float: right;margin: 1px 0px 0 0;}
+
+ul.list {list-style-type:none;list-style-image:none;margin:6px;padding:0;background:transparent;}
+ul.list li {background:url(https://www.serenataflowers.com/images/listicon.gif) no-repeat left 4px; padding:2px 0 2px 17px;color:#666;}
+a:link, a:active {text-decoration:underline; color:#6aa001;}
+a:visited {text-decoration:underline; color:#687f3c;}
+
+/* orange button */
+a:link.btnorange, a:visited.btnorange, a:active.btnorange {float:left;background: transparent url('http://www.serenataflowers.com/images/btn_r.gif') no-repeat scroll top right;color: #fff;display: block;font: bold 10px arial, sans-serif;height: 23px;margin-right: 6px;padding-right: 13px; text-decoration: none;margin-left:1px;}
+a.btnorange span {background: transparent url('http://www.serenataflowers.com/images/btn_l.gif') no-repeat;display: block;line-height: 17px;padding: 2px 0 4px 12px;} 
+a.btnorange:hover {background-position: bottom right;color: #fbe9d6;outline: none;}
+a.btnorange:hover span {background-position: bottom left;padding: 2px 0 4px 12px;}
+
+
+  
+/* orange button2 a*/
+span.btnorange2 {float:left;background: transparent url('http://www.serenataflowers.com/images/btn_r.gif') no-repeat scroll top right;color: #fff;display: block;font: bold 10px arial, sans-serif;height: 23px;margin-right: 6px;padding-right: 9px; text-decoration: none;margin-left:1px;}
+.btnorange1 {color:#fff;border:0px;background: transparent url('http://www.serenataflowers.com/images/btn_l.gif') no-repeat;display: block;line-height: 23px;padding: 2px 0 4px 12px;float:left; height:23px !important; margin-right:8px;} 
+
+/* green button */
+
+span.btngreen2 {float:left; cursor:pointer; background: transparent url('http://www.serenataflowers.com/images/btngreen_r.gif') no-repeat scroll top right;color: #fff;display: block;font: bold 10px arial, sans-serif;height: 23px;margin-right: 6px;padding-right: 2px; text-decoration: none;margin-left:1px;}
+.btngreen1 {color:#fff;border:0px; cursor:pointer; background: transparent url('http://www.serenataflowers.com/images/btngreen_l.gif') no-repeat;display: block;line-height: 23px;padding: 2px 0 4px 12px;float:left; height:23px!important; margin-right:8px}
+
+  
+.oldprice {font:bold 12px helvetica, "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",tahoma, Verdana; color:#717171;text-decoration:line-through;}
+.offerprice {font:bold 14px helvetica, "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",tahoma, Verdana; color:red;}
+.normalprice {font:normal 14px helvetica, "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",tahoma, Verdana; color:#3e3e3e;}
+
+.lfloat {float:left;}
+.rfloat {float:right;}
+
+/* product page */
+.large_overlay {margin: 0;position: relative;width: 300px;height: 350px;}
+	span.bud {width: 300px;height: 134px;display: block;position: absolute;bottom: 0px;left:0px;background: url(https://www.serenataflowers.com/images/budform.png) no-repeat;}
+	span.delivery {width: 300px;height: 31px;display: block;position: absolute;top: 0px;left:0px;background: url(https://www.serenataflowers.com/images/prodmsgbg.png) no-repeat;font:bold 16px helvetica, arial, tahoma, verdana;color:#8DAE4C;padding:6px 0 0 0;text-align:center;}
+.f_content .step {width:100%;background:#fff url(https://www.serenataflowers.com/images/prodstepbg.gif) bottom left repeat-x;border:1px solid #d8d7d7;float:left;margin: 5px 0 0 0;padding:4px 0 0 8px;font:normal 11px arial, tahoma, verdana, sans-serif;}	
+.step {width:100%;background:#fff url(https://www.serenataflowers.com/images/prodstepbg.gif) bottom left repeat-x;border:1px solid #d8d7d7;float:left;margin: 5px 10px 0 0;padding:4px 0 0 8px;font:normal 13px helvetica, arial, tahoma, verdana, sans-serif;}	
+
+select.date {font:normal 1em/1.4 courier new, Arial, Geneva, Helvetica, Sans-Serif;}
+	
+.upsell {float:left;width:65px; height:auto;margin:7px 2px 7px 1px; padding:0 0 5px 0;background:#f1f1f1 url(https://www.serenataflowers.com/images/prodbg_normal.jpg) bottom left;border:1px solid #d8d6d6;border-spacing: 0;border-collapse:collapse;}
+.upsellonmouse {float:left;width:65px; height:auto;margin:7px 2px 7px 1px; padding:0 0 5px 0;background:#ddf2c3 url(https://www.serenataflowers.com/images/prodbg_hover.jpg) bottom left;border:1px solid #a5b856;border-spacing: 0;border-collapse:collapse;}
+	.upsellbottom {height:40px; text-align:center;margin:0 auto;padding:4px 1px 0 1px;}
+
+/* Checkout ///////////////////////////*/
+
+.tr {height:auto;float:left;padding:0.3em;border:1px solid #dde9b9;clear:both;margin:1px;background:#f1f8db url(https://www.serenataflowers.com/checkout/images/fieldbg.gif) bottom left repeat-x;width:100%;}
+	.rightcell {width:140px;text-align:right;float:left;padding:3px 0 0 0;font-family:tahoma, "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",Verdana, helvetica; font-weight:normal;font-size:11px;color:#4e4e4e;display:block;min-width:140px;}
+	.leftcell {text-align:left;float:left;clear:right;margin-right:-4px;font-family:tahoma, "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",Verdana, helvetica; font-weight:normal;font-size:11px;color:#4e4e4e;}
+.trblank {height:auto;width:100%;float:left;padding:0.3em;clear:both;margin:1px;}
+table.m {width:100%;}
+/*table.m {border-spacing: 0;border-collapse:collapse;width:100%;} commented by VL on 03-08-2011*/
+table.m td {padding:5px 0 5px 0;vertical-align:middle;font:normal 13px helvetica, sans-serif;}
+table.m tr {border-bottom:1px dotted #ccc;}
+input {height:25px;}
+
+	/* button */
+	a:link.btn, a:visited.btn, a:active.btn {float:left;background: transparent url('https://www.serenataflowers.com/images/btngreen_r.gif') no-repeat scroll top right;color: #fff;display: block;font: normal 10px arial, sans-serif;height: 23px;margin-right: 6px;margin-top:5px;padding-right: 13px; /* sliding doors padding */text-decoration: none;margin-left:1px;}
+		a.btn span {background: transparent url('https://www.serenataflowers.com/images/btngreen_l.gif') no-repeat;display: block;line-height: 17px;padding: 2px 0 4px 12px;} 
+		a.btn:hover {background-position: bottom right;color: #f1f1f1;outline: none; /* hide dotted outline in Firefox */}
+		a.btn:hover span {background-position: bottom left;padding: 2px 0 4px 12px; /* push text down 1px */}
+
+.infotext {font-family:helvetica, tahoma, "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",Verdana ; font-weight:normal;color:#8E8E8E;font-size:10px;}
+input {font-family:helvetica, tahoma, "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",Verdana ; font-weight:normal;color:#8E8E8E;font-size:100%;font-style:italic;}
+
+table#tb {font:normal 11px tahoma, verdana, sans-serif;color:#666;background:#dde9b9;}
+	table#tb td {margin:4px;vertical-align:middle;background-color:#fff;padding:2px;text-align:center;}
+	table#tb .top {background:#f1f8db url(https://www.serenataflowers.com/images/prodbg_normal.jpg) bottom left; height:30px;font:bold 12px helvetica, "Century Gothic", Palatino Linotype, tahoma, verdana, sans-serif;color:#99b174;margin-top:0;}
+
+table#form1 {font:normal 11px tahoma, verdana, sans-serif;color:#666;background-color:#d8d8d8;}
+table#form1 td {margin:4px;vertical-align:middle;background-color:#fff;padding:4px;text-align:center;}
+
+	/* buttons */
+	.savebtn {float:right;width:196px;height:46px;background:url(https://www.serenataflowers.com/checkout/images/savecheckout.gif) top left no-repeat;cursor:pointer;margin:2px 0 0 2px;}
+	.continuebtn_top {width:196px;height:46px;background:url(https://www.serenataflowers.com/checkout/images/continue.gif) top left no-repeat;cursor:pointer;margin:2px 0 0 2px;}
+	.continue_details {width:281px;height:60px;background:url(https://www.serenataflowers.com/checkout/images/continuemydetails.gif) top left no-repeat;cursor:pointer;}
+	.continue_payment {width:281px;height:60px;background:url(https://checkout.serenataflowers.com/images/continuepayment_08.gif) top left no-repeat;cursor:pointer;}
+	.submit_order {width:196px;height:46px;background:url(https://www.serenataflowers.com/checkout/images/submitorderbtn.gif) top left no-repeat;cursor:pointer;}
+	.satisfaction {cursor:pointer;width:160px;height:168px;background:url(https://www.serenataflowers.com/checkout/images/satisfaction07.gif) top left no-repeat;}
+	.findaddress {float:left;width:135px;height:19px;background:url(https://www.serenataflowers.com/checkout/images/findaddress.gif) top left no-repeat;cursor:pointer;margin:3px 0 0  0;}
+	.findpostcode {float:left;width:89px;height:19px;background:url(https://www.serenataflowers.com/checkout/images/findpostcode09.gif) top left no-repeat;cursor:pointer;}
+	.info {float:left;width:19px;height:19px;cursor:pointer;margin:0 0 1px 0;background:url(https://www.serenataflowers.com/checkout/images/info.gif) top left no-repeat;}
+	.tip {float:left;width:39px;height:19px;margin:0 4px 1px 0;background:url(https://www.serenataflowers.com/checkout/images/tip.gif) top left no-repeat;}
+	.emailus {float:right;width:115px;height:24px;cursor:pointer;background:url(https://www.serenataflowers.com/checkout/images/emailus08.gif) top left no-repeat;}
+	.callmeback {float:right;width:115px;height:24px;cursor:pointer;background:url(https://www.serenataflowers.com/checkout/images/callmeback08.gif) top left no-repeat;margin:0 0 5px 0;}
+	.bin {width:25px;height:29px;cursor:pointer;background:url(https://www.serenataflowers.com/checkout/images/bin.gif) top left no-repeat;margin:0 auto;} 
+	.title {font:bold 14px "Century Gothic", Palatino Linotype, helvetica, tahoma, verdana, sans-serif;color:#ee8d03;margin:0 50px 0 25px;float:left;}
+
+
+/* iphone */
+#header {display:block;}
+#logo {display:block;width:304px;height:55px;background:url(http://www.serenataflowers.com/images/logo_mobile2.gif) top left no-repeat; text-indent:-5000px;margin:0;padding:0;}
+.logo_flowers {display:block;width:304px;height:55px;background:url(http://www.serenataflowers.com/images/logo_mobile2.gif) top left no-repeat; text-indent:-5000px;margin:0;padding:0;}
+.logo_plants {display:block;width:304px;height:55px;background:url(http://images.serenataflowers.com/logo_plants_m.jpg) top left no-repeat; text-indent:-5000px;margin:0;padding:0;}
+.logo_chocolates {display:block;width:304px;height:55px;background:url(http://images.serenataflowers.com/logo_chocolates_m.jpg) top left no-repeat; text-indent:-5000px;margin:0;padding:0;}
+.logo_wines {display:block;width:304px;height:55px;background:url(http://images.serenataflowers.com/logo-wines-m.jpg) top left no-repeat; text-indent:-5000px;margin:0;padding:0;}
+.logo_hampers {display:block;width:304px;height:55px;background:url(http://images.serenataflowers.com/logo_hampers_m.jpg) top left no-repeat; text-indent:-5000px;margin:0;padding:0;}
+#page_wrapper{padding:0;background:url(http://www.serenataflowers.com/images/m_headerbg4.gif) top left repeat-x;overflow:auto;} 
+/*#content_left, #content_right, #content_normal, #content_flipped {display:none;} */
+
+#footer {text-align:center; background: url(http://www.serenataflowers.com/images/prodstepbg.gif) bottom left repeat-x;}
+
+#content_normal {margin:0 20px 0 10px;float:left;}
+
+.show_normal, .show_flipped {width:320px;}
+.show_left, .show_right {width:480px;}
+.show_left #content_left, .show_right #content_right, .show_normal #content_normal, .show_flipped #content_flipped{display:block;}
+
+.m_content {float:left;margin:0 5px 0 10px;width:280px;}
+	.m_content p {line-height:1.5em;}
+
+.f_content {float:left;margin:0 5px 0 10px;width:440px;}
+	.f_content p {line-height:1.5em;}
+
+.imgborder {border:1px solid #97b668;}
+
+/* country select box */
+.refinement{margin:0 0 5px 2px;float:left;}
+	.refinementsHeader{font-size:14px; font-family:"Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",Verdana, helvetica; font-weight:normal;color:#5c5c5c;margin: 0 0 5px 0;}
+	.refinementHint{font:normal 10px arial, tahoma, verdana, sans-serif;color:#717171;}
+	.refinementText{font:normal 10px arial, tahoma, verdana, sans-serif;color:#3e3e3e;width:125px;display:block;}
+	.refinementBox{width:140px;}
+	.selectBox{position:relative;/* font-family:Arial, Helvetica, sans-serif;font-size:11px; */color:#666666;cursor:pointer;z-index:7;width:140px;}
+	.selectBoxSel{position:relative;/* font-family:Arial, Helvetica, sans-serif;font-size:11px; */cursor:pointer;z-index:300;background-color:#D4DDE9;}
+	.selectBoxtitle{font:normal 10px arial, tahoma, verdana, sans-serif;color:#73884f;}
+	.selectBoxDisplay{height:17px;border:1px solid #f09b27;}
+	.selectBoxDisplayLeft{height:17px;padding:0px 0px 0px 3px;background-repeat:no-repeat;background-position:left;background:#fff;}
+	.selectBoxDisplayArrow{height:17px;padding:0px 19px 0px 0px;background-image:url(https://www.serenataflowers.com/images/selectarrow_orange.gif);background-repeat:no-repeat;background-position:right;}
+	.selectBoxDisplayMiddle{padding:0px 2px 0px 2px;height:17px;overflow:hidden;background:#fff;}
+	.selectBoxDisplayMiddle span{position:relative;top:2px;white-space:nowrap;}
+	.selectBoxListContainer{position:absolute;top:18px;left:0px;border:1px solid #f09b27;background-color:#FFFFFF;z-index:300;visibility: hidden;width:140px;}	
+	.selectBoxListElement /*a, .selectBoxListElement a:link, .selectBoxListElement a:visited, .selectBoxListElement a:active*/ {display:block;padding:2px 5px 1px 0px;text-decoration:none;background-color:#FFFFFF;background-image:none;font:normal 10px arial, tahoma, verdana,sans-serif;color:#3e3e3e;width:120px;}
+	.selectBoxList {z-index:300;width:148px;}
+	.selectBoxListElement:hover {z-index:300;display:block;padding:2px 5px 1px 0px;color:#375e0e;font:normal 10px arial, tahoma, verdana, sans-serif;text-decoration:none;background-color:#fde7ac;background-image:none;width:120px;}
+	.selectBoxBorderBottom{height:1px;overflow:visible;}
+	.country-sel-title {font:normal 11px tahoma, arial, verdana;font-weight:bold;float:left;margin:8px 0 0 0px;color:#f19f2c;width:95px;text-transform: none;}
+	
+	
+.ProductLists 
+{
+   width:100%;
+   /* border:1px solid red;*/
+}
+
+#DivPList 
+{
+    border-top:1px dotted #ccc;
+    margin-top:5px;
+}
+.orderbtn 
+{
+    width:180px;
+    height:46px;
+}	
+.normalprice {font:bold 12px "Myriad","Myriad Pro","Lucida Grande","Lucida Sans Unicode",tahoma, Verdana; color:#717171;text-decoration:none;}
+
+.errorMsg
+ {
+     background-color: #FF6633;
+     float:none; clear:both; 
+     border-bottom:1px dotted #c2d799; width:100%; float:left
+ }
+ 
+/*** Added by VL on 06/07/2011 ***/
+
+/*** 08-08-2011 ***/
+.morediv 
+{
+     float: left; margin-bottom: 5px; text-align: right; width: 98%;
+}
+.categorydiv 
+{
+    width:50% !important;
+}
+.probtnmar 
+{
+     margin: 0 0 0 15px;
+}
+.abtheading 
+{
+     font-size: 16px; letter-spacing: 0;
+}
+.redtxt 
+{
+    color: red;
+}
+.clearleft 
+{
+     clear:left;
+}
+.delvinfotable 
+{
+     float: left; margin: 0pt 0pt 0pt 2px;
+}
+.mainimgtop 
+{
+     margin-top: 12px;
+}
+.recipentslbl100 
+{
+     width: 100% !important;
+}
+.viewordlbl70 
+{
+     width: 70%;
+}
+.resiprotypcode 
+{
+     width: 80%;
+}
+.fott 
+{
+     margin:2px 0 4px 24px;
+}
+
+.reqdottedline {
+    border-bottom: 1px dotted #C2D799;
+    background-color:#FF6633;
+    float: left;
+    width: 100%;
+    height:55px;
+    clear: both;
+    float: none;
+}
+.reqdottedline div 
+{
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 45%;
+}
+.divrow25 
+{
+    width:25% !important;
+}
+.divrow30 
+{
+    width:30% !important;
+}
+.divrow45
+{
+    width:45% !important;
+}
+/*** 08-08-2011 ***/
+
+/*** Added by VL on 11/08/2011 ***/
+#lblProductDesciption{font-weight:normal; line-height:1.5em;color: #666666;    font-family: Helvetica,sans-serif;    font-size: 13px;}
+#imgBtnFind_residential{font: bold 10px arial,sans-serif; font-style:normal;font-weight:normal}
+
+.greenbtn 
+{
+	background:url('../images/greenbtn.gif') no-repeat;
+	width:143px;
+	height:23px !important;
+	cursor:pointer;
+	border:0;
+}
+.greenbtn:hover 
+{
+	background:url('../images/greenbtn-hover.gif') no-repeat;
+	width:143px;
+	height:23px !important;
+	cursor:pointer;
+	border:0;
+}
+
+.submitbtn 
+{
+	background:url('../images/submit.gif') no-repeat;
+	width:59px;
+	height:23px !important;
+	cursor:pointer;
+	border:0;
+}
+.submitbtn:hover 
+{
+	background:url('../images/submit-hover.gif') no-repeat;
+	width:59px;
+	height:23px !important;
+	cursor:pointer;
+	border:0;
+}
+.backbtn 
+{
+	float:left;
+	text-decoration:none !important;
+}
+.nextbtn 
+{
+	float:right;
+	text-decoration:none !important;
+}
+
+.reqdottedlineMessage {
+    border-bottom: 1px dotted #C2D799;
+    background-color:#FF6633;
+    float: left;
+    width: 100%;
+    height:150px;
+    clear: both;
+    float: none;
+}
+.reqdottedlineMessage div 
+{
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 45%;
+}
+
+/* For Ajax Loader Classes */
+ .ModalProgressContainer
+    {
+        z-index: 10005;
+        position: fixed;
+        cursor: wait; 
+        top:0%; 
+        background-color: #262626; 
+        filter: alpha(opacity=70);
+        opacity: 0.5;
+        -moz-opacity: .5; 
+        /*height: 100%;*/
+        width: 100%;
+        text-align: center; 
+    	
+        } 
+    .ModalProgressContent
+    {
+        padding: 10px; 
+        border: solid 0px #000040; 
+        font-weight: bold; 
+        background-color:transparent;
+        margin-top:300px;
+    } 
+      /* LARGE - rounded corner box  */
+.largebox {width:100%;margin:8px 0 0 0;padding:0;float:left;}
+.l_top {width:100%;background :url(http://checkout.serenataflowers.com/images/clargebox_top.gif) no-repeat bottom left ; 
+
+background-size:100%; height: 14px; margin-bottom:0;padding:0;text-align:center;}
+.l_middle {width:100%;margin:0 -15px 0 0;padding:0 -15px 0 
+
+0px;background:url(http://checkout.serenataflowers.com/images/clargebox_middle.gif) repeat-y;background-size:100%;}	
+	.l_middle p {margin:0;padding:5px 5px 8px 5px;line-height:1.4em;}
+	.l_middle h2 {margin:0;padding:5px;line-height:20px;}
+.l_bottom { width:100%; background: url(http://checkout.serenataflowers.com/images/clargebox_bottom.gif) no-repeat; 
+
+background-size:100%;color: #FFF; height: 14px; text-align:center;}
+
+
+
+#EmailCenter {display:block;width:304px;height:55px;background:url(http://images.serenataflowers.com/emailcentre_banner.jpg) top left no-repeat; text-indent:-5000px;margin:0;padding:0;background-size:100%}
+
+
+/* orange button */
+a:link.btnorange, a:visited.btnorange, a:active.btnorange {float:left;background: transparent url('http://www.serenataflowers.com/images/btn_r.gif') no-repeat scroll top right;color: #fff;display: block;font: bold 10px arial, sans-serif;height: 23px;margin-right: 6px;padding-right: 13px; text-decoration: none;margin-left:1px;}
+a.btnorange span {background: transparent url('http://www.serenataflowers.com/images/btn_l.gif') no-repeat;display: block;line-height: 17px;padding: 2px 0 4px 12px;} 
+a.btnorange:hover {background-position: bottom right;color: #fbe9d6;outline: none;}
+a.btnorange:hover span {background-position: bottom left;padding: 2px 0 4px 12px;}
+
+
+.datetext{
+
+color: black;
+font-style: italic;
+}
+
+
+p.post{
+padding:10px;float:left;width:278px;
+border: 1px solid rgb(230, 230, 230);
+background: url("http://images.serenataflowers.com/prodstepbg.gif") repeat-x scroll left bottom transparent;background-size:100%;
+    box-shadow: 2px 1px 2px rgb(169, 169, 169);
+    border-radius: 8px 8px 8px 8px;
+    word-wrap:break-word;
+    }
+
+
+
+
+
+body p {
+    color: rgb(102, 102, 102);
+    font: 11px arial,verdana,sans-serif;
+}
+
+.textarea{background:url(http://images.serenataflowers.com/text.png) repeat-x;
+border:1px solid #ccc;border-top:1px solid #999;
+font-family:Georgia,"Bitstream Vera Serif","Times New Roman",serif;
+font-size:18px;line-height:1em;
+padding:5px 6px;width:85%;-moz-border-radius:4px;-khtml-border-radius:4px;
+-webkit-border-radius:4px;border-radius:4px;
+width:287px;
+}

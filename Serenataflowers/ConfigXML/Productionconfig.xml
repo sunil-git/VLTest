@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<request>
+	<config>
+		<callbackURL>
+			<![CDATA[https://admin.serenata.co.uk/admin/paymentGateway/callback.asp]]>
+		</callbackURL>
+		<confirmationURL>
+			<![CDATA[https://checkout.serenataflowers.com/m_confirmation.aspx?s=@OrderID@]]>
+		</confirmationURL>
+		<checkoutRootURL>
+			<![CDATA[https://checkout.serenataflowers.com/]]>
+		</checkoutRootURL>
+		<rootURL>
+			<![CDATA[https://www.serenataflowers.com/]]>
+		</rootURL>
+		<summaryURL>
+			<![CDATA[https://checkout.serenataflowers.com/m_summary.aspx?s=@OrderID@]]>
+		</summaryURL>
+		<step1URL>
+			<![CDATA[https://checkout.serenataflowers.com/m_step1.aspx?back=yes&s=@OrderID@]]>
+		</step1URL>
+		<step2URL>
+			<![CDATA[https://checkout.serenataflowers.com/m_step2.aspx?s=@OrderID@]]>
+		</step2URL>
+		<paymentURL>
+			<![CDATA[https://transaction.serenata.co.uk/payment.asp?s=@OrderID@]]>
+		</paymentURL>
+		<thawteURL>
+			<![CDATA[https://www.thawte.com/cgi/server/certdetails.exe?code=]]>
+		</thawteURL>
+		<hackerSafeURL>
+			<![CDATA[https://www.scanalert.com/RatingVerify?ref=www.serenataflowers.com]]>
+		</hackerSafeURL>
+		<baseSiteURL>
+			<![CDATA[http://www.serenataflowers.com/]]>
+		</baseSiteURL>
+	</config>
+</request>

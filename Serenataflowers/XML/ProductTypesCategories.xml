@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<ProductTypes>
+  <ProductType id="1" >
+    <!-- Product Type name -->
+    <name><![CDATA[Flowers]]></name>
+    <!-- Domain name for this Product Type -->
+    <domain><![CDATA[localhost]]></domain>
+    <!-- details of each category -->
+    <categories>
+      <category id="9999">
+        <![CDATA[Bestseller]]>
+      </category>
+      <category id="0">
+        <![CDATA[Special Offers]]>
+      </category>
+      <category id="148">
+        <![CDATA[Valentines flowers]]>
+      </category>      
+      <category id="2235">
+        <![CDATA[Flowers by post]]>
+      </category>
+      <category id="83">
+        <![CDATA[Winter flowers]]>
+      </category>
+      <category id="69">
+        <![CDATA[Birthday flowers]]>
+      </category>
+      <category id="111">
+        <![CDATA[Romantic flowers]]>
+      </category>
+      <category id="62">
+        <![CDATA[Modern flowers]]> 
+      </category>
+      <category id="114">
+        <![CDATA[Thank you flowers]]> 
+      </category>
+      <category id="86">
+        <![CDATA[Anniversary flowers]]> 
+      </category>
+      <category id="100">
+        <![CDATA[Sympathy flowers]]> 
+      </category>
+      <category id="97">
+        <![CDATA[New born flowers]]> 
+      </category>
+      <category id="11">
+        <![CDATA[Roses]]>
+      </category>
+      <category id="157">
+        <![CDATA[Get well flowers]]>
+      </category>
+      <category id="270">
+        <![CDATA[Exclusive flowers]]>
+      </category>
+  </categories>
+  </ProductType>
+  <ProductType id="2" >
+    <!-- Product Type name -->
+    <name><![CDATA[Plants]]></name>
+    <!-- Domain name for this Product Type -->
+    <domain><![CDATA[m.serenataplants.com]]></domain>
+    <!-- details of each category -->
+    <categories>
+      <category id="8205">
+        <![CDATA[Bestseller]]>
+      </category>      
+      <category id="8207">
+        <![CDATA[Bay trees]]>
+      </category>
+      <category id="8206">
+        <![CDATA[Buxus plants]]>
+      </category>
+      <category id="8601">
+        <![CDATA[Fruit Trees]]>
+      </category>
+      <category id="8603">
+        <![CDATA[Flowering Plants]]>
+      </category>
+      <category id="8209">
+        <![CDATA[House Plants]]>
+      </category>
+      <category id="8208">
+        <![CDATA[Olive Trees]]>
+      </category>
+      <category id="12">
+        <![CDATA[Orchids]]>
+      </category>
+      <category id="8605">
+        <![CDATA[Ornamental trees]]>
+      </category>
+      <category id="8604">
+        <![CDATA[Palm Trees]]>
+      </category>
+      <category id="8602">
+        <![CDATA[Topiary Frames]]>
+      </category>      
+    </categories>
+  </ProductType>
+  <ProductType id="3" >
+    <!-- Product Type name -->
+    <name><![CDATA[Chocolates]]></name>
+    <!-- Domain name for this Product Type -->
+    <domain><![CDATA[m.serenatachocolates.com]]></domain>
+    <!-- details of each category -->   
+    <categories>
+      <category id="2249">
+        <![CDATA[Bestseller]]>
+      </category>
+      <category id="7159">
+        <![CDATA[Christmas Chocolate]]>
+      </category>      
+      <category id="2261">
+        <![CDATA[Birthday Chocolate]]>
+      </category>
+      <category id="2255">
+        <![CDATA[Truffles]]>
+      </category>
+      <category id="2264">
+        <![CDATA[Well Chocolate]]>
+      </category>
+      <category id="2254">
+        <![CDATA[Pralines]]>
+      </category>
+      <category id="2266">
+        <![CDATA[Chocolate for her]]>
+      </category>
+      <category id="2258">
+        <![CDATA[Dark Chocolate]]>
+      </category>
+      <category id="2267">
+        <![CDATA[Chocolate for him]]>
+      </category>
+      <category id="2265">
+        <![CDATA[I'm Sorry]]>
+      </category>
+      
+    </categories>
+  </ProductType>
+  <ProductType id="4" >
+    <!-- Product Type name -->
+    <name><![CDATA[Hampers]]></name>    
+    <!-- Domain name for this Product Type -->
+    <domain><![CDATA[m.serenatahampers.com]]></domain>
+    <!-- details of each category -->
+    <categories>
+      <category id="2236">
+        <![CDATA[Bestseller]]>
+      </category>      
+      <category id="8722">
+        <![CDATA[Beer & Ale]]>
+      </category>
+      <category id="8600">
+        <![CDATA[Champagne]]>
+      </category>
+      <category id="8708">
+        <![CDATA[Cheese]]>
+      </category>
+      <category id="8710">
+        <![CDATA[Chocolate]]>
+      </category>
+      <category id="8704">
+        <![CDATA[Food]]>
+      </category>
+      <category id="8596">
+        <![CDATA[Luxury]]>
+      </category>
+      <category id="8613">
+        <![CDATA[New Baby]]>
+      </category>
+      <category id="2236">
+        <![CDATA[Organic & Wheat Free]]>
+      </category>
+      <category id="8709">
+        <![CDATA[Pamper]]>
+      </category>
+      <category id="8705">
+        <![CDATA[Picnic]]>
+      </category>
+      <category id="8712">
+        <![CDATA[Port]]>
+      </category>
+      <category id="8711">
+        <![CDATA[Wine]]>
+      </category>
+      <category id="8598">
+        <![CDATA[Hampers for Her]]>
+      </category>
+      <category id="8599">
+        <![CDATA[Hampers for Him]]>
+      </category>
+      <category id="2236">
+        <![CDATA[Greetings Baskets]]>
+      </category>
+     </categories>
+  </ProductType>
+<ProductType id="5" >
+    <!-- Product Type name -->
+    <name><![CDATA[Wines]]></name>    
+    <!-- Domain name for this Product Type -->
+    <domain><![CDATA[m.serenatawines.com]]></domain>
+    <!-- details of each category -->
+    <categories>
+      <category id="2334">
+        <![CDATA[Bestseller]]>
+      </category>
+      <category id="7161">
+        <![CDATA[Christmas Wines]]>
+      </category>      
+      <category id="282">
+        <![CDATA[2 bottle gift pack]]>
+      </category>
+      <category id="283">
+        <![CDATA[3 bottle gift pack]]>
+      </category>
+      <category id="8711">
+        <![CDATA[Wine Hampers]]>
+      </category>
+      <category id="2327">
+        <![CDATA[French wines]]>
+      </category>
+      <category id="2333">
+        <![CDATA[Italian wines]]>
+      </category>
+      <category id="2329">
+        <![CDATA[Wines from South Africa]]>
+      </category>
+      <category id="264">
+        <![CDATA[Wines from Chile]]>
+      </category>
+      <category id="2331">
+        <![CDATA[Wines from Spain]]>
+      </category>
+      <category id="275">
+        <![CDATA[Birthday Wines]]>
+      </category>
+      <category id="274">
+        <![CDATA[Anniversary Wines]]>
+      </category>
+      <category id="276">
+        <![CDATA[Congratulations wine]]>
+      </category>
+      <category id="256">
+        <![CDATA[Bordeaux]]>
+      </category>
+      <category id="257">
+        <![CDATA[Burgundy]]>
+      </category>
+      <category id="294">
+        <![CDATA[Chablis]]>
+      </category>
+      <category id="258">
+        <![CDATA[Champagne]]>
+      </category>
+      <category id="312">
+        <![CDATA[Cabernet Sauvignons]]>
+      </category>
+      <category id="296">
+        <![CDATA[Chardonnay]]>
+      </category>
+  	<category id="284">
+        <![CDATA[Merlot]]>
+      </category>
+ 	 <category id="272">
+        <![CDATA[Sauvignon Blanc]]>
+      </category>
+  	<category id="476">
+        <![CDATA[Pinot Grigio]]>
+      </category>
+     </categories>
+  </ProductType>
+</ProductTypes>
+
+
+
+
+

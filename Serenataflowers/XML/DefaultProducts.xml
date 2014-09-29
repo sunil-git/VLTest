@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response version="1.0">
+  <Transaction mode="TEST" response="ASYNC">
+    <Identification>
+      <OrderID>224079266</OrderID>
+      <UUID>-2630666281874347861</UUID>
+    </Identification>
+    <Processing requestTimestamp="2013-11-13 09:35:54" responseTimestamp="2013-11-13 09:35:55" payPipeProcessingTime="28" connectorTime="1076">
+      <Return code="000.000.000">Transaction succeeded</Return>
+      <AVSResult>U</AVSResult>
+      <CVVResult>M</CVVResult>
+      <ConnectorTxID1 description="TxRefNum;TxRefIdx">528347FB74DC1854200CADB5734067E96D0C5431;1</ConnectorTxID1>
+      <ConnectorTxID2 description="AuthCode">tst226</ConnectorTxID2>
+      <ConnectorTxID3 description="CustomerRefNum"></ConnectorTxID3>
+      <ConnectorDetails>
+        <Result name="AVSRespCode">3 </Result>
+        <Result name="CVV2RespCode">M</Result>
+        <Result name="OrderID">224079266</Result>
+        <Result name="ProcStatus">0</Result>
+        <Result name="RespCode">00</Result>
+      </ConnectorDetails>
+    </Processing>
+    <Customer>
+      <Name/>
+      <Contact/>
+      <Address/>
+    </Customer>
+    <ConnectorSent>
+      <Url>https://orbitalvar1.paymentech.net:443/authorize</Url>
+      <Body><![CDATA[]]></Body>
+    </ConnectorSent>
+    <ConnectorReceived timestamp="2013-11-13 09:35:55">
+      <Returned code="00">Approved</Returned>
+      <Body><![CDATA[<?xml version="1.0" encoding="UTF-8"?><Response><NewOrderResp><IndustryType></IndustryType><MessageType>AC</MessageType><MerchantID>732214</MerchantID><TerminalID>001</TerminalID><CardBrand>VI</CardBrand><AccountNum>************4448</AccountNum><OrderID>224079266</OrderID><TxRefNum>528347FB74DC1854200CADB5734067E96D0C5431</TxRefNum><TxRefIdx>1</TxRefIdx><ProcStatus>0</ProcStatus><ApprovalStatus>1</ApprovalStatus><RespCode>00</RespCode><AVSRespCode>3 </AVSRespCode><CVV2RespCode>M</CVV2RespCode><AuthCode>tst226</AuthCode><RecurringAdviceCd></RecurringAdviceCd><CAVVRespCode></CAVVRespCode><StatusMsg>Approved</StatusMsg><RespMsg></RespMsg><HostRespCode>100</HostRespCode><HostAVSRespCode>  </HostAVSRespCode><HostCVV2RespCode>M</HostCVV2RespCode><CustomerRefNum></CustomerRefNum><CustomerName></CustomerName><ProfileProcStatus></ProfileProcStatus><CustomerProfileMessage></CustomerProfileMessage><RespTime>043555</RespTime><PartialAuthOccurred></PartialAuthOccurred><RequestedAmount></RequestedAmount><RedeemedAmount></RedeemedAmount><RemainingBalance></RemainingBalance><CountryFraudFilterStatus></CountryFraudFilterStatus><IsoCountryCode></IsoCountryCode></NewOrderResp></Response>]]></Body>
+    </ConnectorReceived>
+    <CreditCardAccount>
+      <Holder>dsf</Holder>
+      <Brand>VISA</Brand>
+      <BIN>444444</BIN>
+      <Last4>4448</Last4>
+      <Expiry month="11" year="2013"/>
+    </CreditCardAccount>
+  </Transaction>
+</Response>
+
+
+
+<Response version="1.0">
+  <Transaction mode="TEST" response="ASYNC">
+    <Identification>
+      <OrderID>224079266</OrderID>
+      <UUID>-492670349588306792</UUID>
+    </Identification>
+    <Processing requestTimestamp="2013-11-14 15:32:20" responseTimestamp="2013-11-14 15:32:21" payPipeProcessingTime="28" connectorTime="762">
+      <Return code="000.000.000">Transaction succeeded</Return>
+      <AVSResult>U</AVSResult>
+      <CVVResult>M</CVVResult>
+      <ConnectorTxID1 description="TxRefNum;TxRefIdx">5284ED050D1DF2D49B64BFB10C8B838F668F5318;0</ConnectorTxID1>
+      <ConnectorTxID2 description="AuthCode">tst320</ConnectorTxID2>
+      <ConnectorTxID3 description="CustomerRefNum"></ConnectorTxID3>
+      <ConnectorDetails>
+        <Result name="AVSRespCode">3 </Result>
+        <Result name="CVV2RespCode">M</Result>
+        <Result name="OrderID">224079266</Result>
+        <Result name="ProcStatus">0</Result>
+        <Result name="RespCode">00</Result>
+      </ConnectorDetails>
+    </Processing>
+    <Customer>
+      <Name>
+        <Family>Sunil</Family>
+        <Given>behera</Given>
+      </Name>
+      <Contact>
+        <Email>sunil@yahoo.com</Email>
+        <Ip>127.0.0.1</Ip>
+        <Mobile>44444445345345345</Mobile>
+      </Contact>
+      <Address>
+        <Zip>M40 0FG</Zip>
+        <City>Manchester</City>
+        <Country>United Kingdom</Country>
+      </Address>
+    </Customer>
+    <ConnectorSent>
+      <Url>https://orbitalvar1.paymentech.net:443/authorize</Url>
+      <Body><![CDATA[]]></Body>
+    </ConnectorSent>
+    <ConnectorReceived timestamp="2013-11-14 15:32:21">
+      <Returned code="00">Approved</Returned>
+      <Body><![CDATA[<?xml version="1.0" encoding="UTF-8"?><Response><NewOrderResp><IndustryType></IndustryType><MessageType>A</MessageType><MerchantID>732214</MerchantID><TerminalID>001</TerminalID><CardBrand>VI</CardBrand><AccountNum>************4448</AccountNum><OrderID>224079266</OrderID><TxRefNum>5284ED050D1DF2D49B64BFB10C8B838F668F5318</TxRefNum><TxRefIdx>0</TxRefIdx><ProcStatus>0</ProcStatus><ApprovalStatus>1</ApprovalStatus><RespCode>00</RespCode><AVSRespCode>3 </AVSRespCode><CVV2RespCode>M</CVV2RespCode><AuthCode>tst320</AuthCode><RecurringAdviceCd></RecurringAdviceCd><CAVVRespCode></CAVVRespCode><StatusMsg>Approved</StatusMsg><RespMsg></RespMsg><HostRespCode>100</HostRespCode><HostAVSRespCode>  </HostAVSRespCode><HostCVV2RespCode>M</HostCVV2RespCode><CustomerRefNum></CustomerRefNum><CustomerName></CustomerName><ProfileProcStatus></ProfileProcStatus><CustomerProfileMessage></CustomerProfileMessage><RespTime>103221</RespTime><PartialAuthOccurred></PartialAuthOccurred><RequestedAmount></RequestedAmount><RedeemedAmount></RedeemedAmount><RemainingBalance></RemainingBalance><CountryFraudFilterStatus></CountryFraudFilterStatus><IsoCountryCode></IsoCountryCode></NewOrderResp></Response>]]></Body>
+    </ConnectorReceived>
+    <CreditCardAccount>
+      <Holder>2112</Holder>
+      <Brand>VISA</Brand>
+      <BIN>444444</BIN>
+      <Last4>4448</Last4>
+      <Expiry month="11" year="2013" />
+    </CreditCardAccount>
+  </Transaction>
+</Response>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Response version="1.0">
+  <Transaction mode="TEST" response="ASYNC">
+    <Identification>
+      <OrderID>224079266</OrderID>
+      <UUID>2547239112053643948</UUID>
+    </Identification>
+    <Processing requestTimestamp="2013-11-15 11:10:35" responseTimestamp="2013-11-15 11:10:35" payPipeProcessingTime="27" connectorTime="0">
+      <Return code="200.100.103">invalid Request Message. The request contains structural errors</Return>
+    </Processing>
+    <Customer>
+      <Name>
+        <Family>Sunil</Family>
+        <Given>behera</Given>
+      </Name>
+      <Contact>
+        <Email>sunil@yahoo.com</Email>
+        <Ip>127.0.0.1</Ip>
+        <Mobile>44444445345345345</Mobile>
+      </Contact>
+      <Address>
+        <Zip>M40 0FG</Zip>
+        <City>Manchester</City>
+        <Country>United Kingdom</Country>
+      </Address>
+    </Customer>
+    <Authentication>
+      <Eci>06</Eci>
+    </Authentication>
+    <ConnectorReceived>
+      <Returned code="Response URL missing">Response URL is required in connector request.</Returned>
+      <Body><![CDATA[]]></Body>
+    </ConnectorReceived>
+    <CreditCardAccount>
+      <Holder>fgfgd</Holder>
+      <Brand>VISA</Brand>
+      <BIN>444444</BIN>
+      <Last4>4448</Last4>
+      <Expiry month="11" year="2013" />
+    </CreditCardAccount>
+  </Transaction>
+</Response>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Response version="1.0">
+  <Transaction mode="TEST" response="ASYNC">
+    <Identification>
+      <OrderID>224079266</OrderID>
+      <UUID>7000146387735034786</UUID>
+    </Identification>
+    <Processing requestTimestamp="2013-11-18 05:16:21" responseTimestamp="2013-11-18 05:16:22" payPipeProcessingTime="25" connectorTime="998">
+      <Return code="800.100.156">transaction declined (format error)</Return>
+      <ConnectorDetails>
+        <Result name="ProcStatus">9720</Result>
+      </ConnectorDetails>
+    </Processing>
+    <Customer>
+      <Name>
+        <Family>Sunil</Family>
+        <Given>behera</Given>
+      </Name>
+      <Contact>
+        <Email>sunil@yahoo.com</Email>
+        <Ip>127.0.0.1</Ip>
+        <Mobile>44444445345345345</Mobile>
+      </Contact>
+      <Address>
+        <Zip>M40 0FG</Zip>
+        <City>Manchester</City>
+        <Country>GB</Country>
+      </Address>
+    </Customer>
+    <ConnectorSent>
+      <Url>https://orbitalvar1.paymentech.net:443/authorize</Url>
+      <Body><![CDATA[]]></Body>
+    </ConnectorSent>
+    <Authentication>
+      <Eci>05</Eci>
+      <Verification>AAACAgSRBklmQCFgMpEGAAAAAAA=</Verification>
+      <Xid>CAACCVVUlwCXUyhQNlSXAAAAAAA=</Xid>
+    </Authentication>
+    <ConnectorReceived timestamp="2013-11-18 05:16:22">
+      <Returned code="9720">Soft Desc: Merchant is not activated for soft descriptors</Returned>
+      <Body><![CDATA[<?xml version="1.0" encoding="UTF-8"?><Response><QuickResp><ProcStatus>9720</ProcStatus><StatusMsg>Soft Desc: Merchant is not activated for soft descriptors</StatusMsg></QuickResp></Response>]]></Body>
+    </ConnectorReceived>
+    <CreditCardAccount>
+      <Holder>test</Holder>
+      <Brand>VISA</Brand>
+      <BIN>407704</BIN>
+      <Last4>1112</Last4>
+      <Expiry month="11" year="2013" />
+    </CreditCardAccount>
+  </Transaction>
+</Response>
+
+
+
+

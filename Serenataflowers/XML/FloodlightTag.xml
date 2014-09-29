@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<floodlight>
+  <website domain="94.199.190.105">
+    <!-- details floodlight for  each pages start -->
+    <!-- details floodlight for home page start -->
+    <page name="Default.aspx" category="Bestseller">
+      <activityName>Home/Landing</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>homel220</cat>
+    </page>
+    <!-- details floodlight for home page end -->
+    <!-- details floodlight for category page start -->
+    <page name="Default.aspx" category="">
+      <activityName>CategoryView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>categ195</cat>
+    </page>
+    <!-- details floodlight for category page end -->
+    <page name="ViewProduct.aspx" category="">
+      <activityName>ProductView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>produ686</cat>
+    </page>
+    <page name="m_step1.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_step2.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_summary.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_confirmation.aspx" category="">
+      <activityName>Orders</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>order441</cat>
+    </page>
+    <!-- details floodlight for  each pages end -->
+ </website>
+  <website domain="172.20.8.28">
+    <!-- details floodlight for  each pages start -->
+    <!-- details floodlight for home page start -->
+    <page name="Default.aspx" category="Bestseller">
+      <activityName>Home/Landing</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>homel220</cat>
+    </page>
+    <!-- details floodlight for home page end -->
+    <!-- details floodlight for category page start -->
+    <page name="Default.aspx" category="">
+      <activityName>CategoryView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>categ195</cat>
+    </page>
+    <!-- details floodlight for category page end -->
+    <page name="ViewProduct.aspx" category="">
+      <activityName>ProductView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>produ686</cat>
+    </page>
+    <page name="m_step1.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_step2.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_summary.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_confirmation.aspx" category="">
+      <activityName>Orders</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>order441</cat>
+    </page>
+    <!-- details floodlight for  each pages end -->
+  </website>
+  <website domain="m.serenatachocolates.com">
+    <!-- details floodlight for  each pages start -->
+    <!-- details floodlight for home page start -->
+    <page name="Default.aspx" category="Bestseller">
+      <activityName>Home/Landing</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>homel220</cat>
+    </page>
+    <!-- details floodlight for home page end -->
+    <!-- details floodlight for category page start -->
+    <page name="Default.aspx" category="">
+      <activityName>CategoryView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>categ195</cat>
+    </page>
+    <!-- details floodlight for category page end -->
+    <page name="ViewProduct.aspx" category="">
+      <activityName>ProductView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>produ686</cat>
+    </page>
+    <page name="m_step1.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_step2.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_summary.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_confirmation.aspx" category="">
+      <activityName>Orders</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>order441</cat>
+    </page>
+    <!-- details floodlight for  each pages end -->
+  </website>
+  <website domain="m.serenatahampers.com">
+    <!-- details floodlight for  each pages start -->
+    <!-- details floodlight for home page start -->
+    <page name="Default.aspx" category="Bestseller">
+      <activityName>Home/Landing</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>homel220</cat>
+    </page>
+    <!-- details floodlight for home page end -->
+    <!-- details floodlight for category page start -->
+    <page name="Default.aspx" category="">
+      <activityName>CategoryView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>categ195</cat>
+    </page>
+    <!-- details floodlight for category page end -->
+    <page name="ViewProduct.aspx" category="">
+      <activityName>ProductView</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>produ686</cat>
+    </page>
+    <page name="m_step1.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_step2.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_summary.aspx" category="">
+      <activityName>Checkout</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>check784</cat>
+    </page>
+    <page name="m_confirmation.aspx" category="">
+      <activityName>Orders</activityName>
+      <src>3723336</src>
+      <type>uniqu332</type>
+      <cat>order441</cat>
+    </page>
+    <!-- details floodlight for  each pages end -->
+  </website>
+</floodlight>
+
+
+
+
+

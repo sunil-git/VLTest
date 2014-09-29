@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResponseCodes>
+  <ResponseCode Code="000.000.000">
+    <Message>SUCCESS</Message>
+    <Status>Approved</Status>
+    <CustomMessage>Approved</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.172">
+    <Message>DECLINED_ACCOUNT_BLOCKED</Message>
+    <Status>Declined</Status>
+    <CustomMessage>Your account is blocked. Please retry with another card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.155">
+    <Message>DECLINED_AMOUNT_EXCEEDS_CREDIT</Message>
+    <Status>Declined</Status>
+    <CustomMessage>Your account is blocked. Please retry with another card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.550.301">
+    <Message>DECLINED_AMOUNT_TOO_LARGE</Message>
+    <Status>Declined</Status>
+    <CustomMessage>Please check the amount you have sent</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.400.100">
+    <Message>DECLINED_AVS_CHECK_FAILED</Message>
+    <Status>Declined</Status>
+    <CustomMessage>Please verify address data</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.152">
+    <Message>DECLINED_BY_AUTHORIZATION_SYSTEM</Message>
+    <Status>Declined</Status>
+    <CustomMessage>Please re-try with different card.</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.160">
+    <Message>DECLINED_CARD_BLOCKED</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.550.401">
+    <Message>DECLINED_CURRENCY_INVALID</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Invalid currency used in transaction</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.157">
+    <Message>DECLINED_EXPIRY_DATE_EXCEEDED</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please check expiry date and try again</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.156">
+    <Message>DECLINED_FORMAT_ERROR</Message>
+    <Status>Decline</Status>
+    <CustomMessage>[NEEDS REVIEW]</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.100">
+    <Message>DECLINED_FOR_UNKNOWN_REASON</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="700.100.300">
+    <Message>DECLINED_INTERNAL_AMOUNT_INVALID</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please validate amount</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.190">
+    <Message>DECLINED_INVALID_CONFIGURATION</Message>
+    <Status>Decline</Status>
+    <CustomMessage>[NEEDS REVIEW]</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.800.501">
+    <Message>DECLINED_INVALID_COUNTRY</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please check the country associated with your payment card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.173">
+    <Message>DECLINED_INVALID_CURRENCY</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Verify with Chase Paymentech the cause for the failure.</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.173">
+    <Message>DECLINED_INVALID_CURRENCY</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Invalid currency used in transaction</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.153">
+    <Message>DECLINED_INVALID_CVV</Message>
+    <Status>Decline</Status>
+    <CustomMessage>[NEEDS REVIEW]</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.700.801">
+    <Message>DECLINED_INVALID_IDENTIFICATION</Message>
+    <Status>Decline</Status>
+    <CustomMessage>[NEEDS REVIEW]</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.162">
+    <Message>DECLINED_LIMIT_EXCEEDED</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try message with different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.163">
+    <Message>DECLINED_MAX_FREQUENCY_EXCEEDED</Message>
+    <Status>Decline</Status>
+    <CustomMessage>re-try message with different card.</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.100.101">
+    <Message>DECLINED_NUMBER_INVALID</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please check the card number entered</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.171">
+    <Message>DECLINED_PICK_UP_CARD</Message>
+    <Status>Decline</Status>
+    <CustomMessage>[NEEDS REVIEW]</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.167">
+    <Message>DECLINED_REFERENCING_TX_DOESNT_MATCH</Message>
+    <Status>Decline</Status>
+    <CustomMessage>>[NEEDS REVIEW]</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.159">
+    <Message>DECLINED_STOLEN_CARD</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.158">
+    <Message>DECLINED_SUSPECTING_MANIPULATION</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.170">
+    <Message>DECLINED_TRANSACTION_NOT_PERMITTED</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.100.191">
+    <Message>DECLINED_TX_IN_WRONG_STATE</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="800.110.100">
+    <Message>DUPLICATE_TRANSACTION</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="900.100.600">
+    <Message>FAILED_CONNECTOR_CURRENTLY_DOWN</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="900.100.201">
+    <Message>FAILED_ERROR_ON_GATEWAY</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="900.100.200">
+    <Message>FAILED_ERROR_RESPONSE_FROM_ACQUIRER</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="900.100.300">
+    <Message>FAILED_NO_RESPONSE_FROM_ACQUIRER</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="900.200.100">
+    <Message>FAILED_SEQUENCE_NR_OUT_OF_SYN</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="900.100.400">
+    <Message>FAILED_TIMEOUT_AT_ACQUIRER</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="900.100.100">
+    <Message>FAILED_UNEXPECTED_COMMUNICATION_ERROR</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card.</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="000.400.030">
+    <Message>SUCCESS_REVIEW_MANUALLY_AUTO_REVERSAL</Message>
+    <Status>Decline</Status>
+    <CustomMessage>[NEED REVIEW]</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="000.200.000">
+    <Message>PENDING</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+
+  <ResponseCode Code="000.400.101">
+    <Message>Card Not Participating</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="000.400.102">
+    <Message>User Not Enrolled</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.390.112">
+    <Message>Technical Error in 3D System</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.380.401">
+    <Message>User Authentication Failed</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.390.111">
+    <Message>Communication Error to VISA/Mastercard Directory Server</Message>
+    <Status>Progress with authorisation</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.390.108">
+    <Message>Transaction rejected because merchant not participating in 3DSecure program</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.390.102">
+    <Message>PARes Validation failed</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+  <ResponseCode Code="100.390.103">
+    <Message>PARes Validation failed - problem with signature</Message>
+    <Status>Decline</Status>
+    <CustomMessage>Please try again or re-try with a different card</CustomMessage>
+  </ResponseCode>
+
+</ResponseCodes>

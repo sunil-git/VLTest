@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response version="1.0">
+  <Transaction mode="TEST" response="ASYNC">
+    <Identification>
+      <OrderID>224079266</OrderID>
+      <UUID>-4305171850444060247</UUID>
+    </Identification>
+    <Processing requestTimestamp="2013-11-12 14:26:24" responseTimestamp="2013-11-12 14:26:26" payPipeProcessingTime="27" connectorTime="1292">
+      <Return code="000.000.000">Transaction succeeded</Return>
+      <AVSResult>U</AVSResult>
+      <CVVResult>M</CVVResult>
+      <ConnectorTxID1 description="TxRefNum;TxRefIdx">52823A91BAE462D73F8E9D8A72ACB175703354A5;1</ConnectorTxID1>
+      <ConnectorTxID2 description="AuthCode">tst410</ConnectorTxID2>
+      <ConnectorTxID3 description="CustomerRefNum"></ConnectorTxID3>
+      <ConnectorDetails>
+        <Result name="AVSRespCode">3 </Result>
+        <Result name="CVV2RespCode">M</Result>
+        <Result name="OrderID">224079266</Result>
+        <Result name="ProcStatus">0</Result>
+        <Result name="RespCode">00</Result>
+      </ConnectorDetails>
+    </Processing>
+    <Customer>
+      <Name/>
+      <Contact/>
+      <Address/>
+    </Customer>
+    <ConnectorSent>
+      <Url>https://orbitalvar1.paymentech.net:443/authorize</Url>
+      <Body><![CDATA[]]></Body>
+    </ConnectorSent>
+    <ConnectorReceived timestamp="2013-11-12 14:26:26">
+      <Returned code="00">Approved</Returned>
+      <Body><![CDATA[<?xml version="1.0" encoding="UTF-8"?><Response><NewOrderResp><IndustryType></IndustryType><MessageType>AC</MessageType><MerchantID>732214</MerchantID><TerminalID>001</TerminalID><CardBrand>VI</CardBrand><AccountNum>************4448</AccountNum><OrderID>224079266</OrderID><TxRefNum>52823A91BAE462D73F8E9D8A72ACB175703354A5</TxRefNum><TxRefIdx>1</TxRefIdx><ProcStatus>0</ProcStatus><ApprovalStatus>1</ApprovalStatus><RespCode>00</RespCode><AVSRespCode>3 </AVSRespCode><CVV2RespCode>M</CVV2RespCode><AuthCode>tst410</AuthCode><RecurringAdviceCd></RecurringAdviceCd><CAVVRespCode></CAVVRespCode><StatusMsg>Approved</StatusMsg><RespMsg></RespMsg><HostRespCode>100</HostRespCode><HostAVSRespCode>  </HostAVSRespCode><HostCVV2RespCode>M</HostCVV2RespCode><CustomerRefNum></CustomerRefNum><CustomerName></CustomerName><ProfileProcStatus></ProfileProcStatus><CustomerProfileMessage></CustomerProfileMessage><RespTime>092625</RespTime><PartialAuthOccurred></PartialAuthOccurred><RequestedAmount></RequestedAmount><RedeemedAmount></RedeemedAmount><RemainingBalance></RemainingBalance><CountryFraudFilterStatus></CountryFraudFilterStatus><IsoCountryCode></IsoCountryCode></NewOrderResp></Response>]]></Body>
+    </ConnectorReceived>
+    <CreditCardAccount>
+      <Holder>fsdf</Holder>
+      <Brand>VISA</Brand>
+      <BIN>444444</BIN>
+      <Last4>4448</Last4>
+      <Expiry month="11" year="2013"/>
+    </CreditCardAccount>
+  </Transaction>
+</Response>
+

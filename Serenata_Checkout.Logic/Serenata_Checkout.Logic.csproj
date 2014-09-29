@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4AADD4AB-7E6B-4884-B9D2-BCFEBB75AFB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Serenata_Checkout.Logic</RootNamespace>
+    <AssemblyName>Serenata_Checkout.Logic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="EnumList.cs" />
+    <Compile Include="MetaTag.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Serenata_Checkout.Bal\Serenata_Checkout.Bal.csproj">
+      <Project>{7270BF4B-2174-4BE6-8868-77FCC3EC8734}</Project>
+      <Name>Serenata_Checkout.Bal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.ChilkatComponent\Serenata_Checkout.ChilkatComponent.csproj">
+      <Project>{535B0A99-327B-4FE8-9F95-E4034713ADB2}</Project>
+      <Name>Serenata_Checkout.ChilkatComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.Dal\Serenata_Checkout.Dal.csproj">
+      <Project>{BDCDA3FF-86CC-4AFC-97DD-EA49C93C456C}</Project>
+      <Name>Serenata_Checkout.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.Dto\Serenata_Checkout.Dto.csproj">
+      <Project>{EE9E5EAF-507C-4074-948D-315D6794E7D0}</Project>
+      <Name>Serenata_Checkout.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serenata_Checkout.Log\Serenata_Checkout.Log.csproj">
+      <Project>{E8B48DD8-2C67-4656-81DB-A91A357A5E6D}</Project>
+      <Name>Serenata_Checkout.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

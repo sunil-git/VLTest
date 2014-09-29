@@ -1,0 +1,1110 @@
+/* Requires: normalize.css */
+/* Global Reset & Standards ---------------------- */
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; *behavior: url(box-sizing.htc);}
+/* Chrome fix */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+ select{line-height:25px;margin-top:1px;} 
+ .sticky-button-wrapper {position:fixed;top:85px;right:0;} 
+ .header-search select {line-height:20px;height:25px;width:100px;padding:0.5em;margin:0 0 0 -5px;position:absolute;top:4px;left:13px;z-index:1000;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;border:1px solid #ccc;color:#888;}
+ 
+}
+
+html { font-size: 62.5%; }
+
+body { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 1.5em; color: #888888; position: relative; -webkit-font-smoothing: antialiased; }
+
+/* Custom ============================----------------------*/
+#container {padding:10px 10px 0 10px;background:#fff url(http://images.serenataflowers.com/bodyfade.gif) top left repeat-x;}
+#logo {width:239px;height:44px;margin:5px 5px 0px 0;background:url(http://images.serenataflowers.com/serenataflowers-mobilelogo.png) top left no-repeat;}
+
+
+.mainbox {border:1px solid #ccc;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;-moz-box-shadow: 0 0 5px #b0afaf;-webkit-box-shadow: 0 0 5px #b0afaf;box-shadow: 0 0 5px #b0afaf;padding:10px 0 0 10px;}
+.box {padding:10px 10px;margin:5px 0 5px 0;border:1px solid #e6e6e6;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;}
+.sortbar {height:40px;padding:2px 10px 1px 0px;margin:10px 0 5px 0;border:1px solid #e6e6e6;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;clear:both;background: -moz-linear-gradient(top, #ffffff, #ececec);
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#ececec));
+background: linear-gradient(top, #ffffff, #ececec);-webkit-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;-moz-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;}
+.sortbar h4 {margin:0;padding:9px 0 0 0px;text-align:left;}
+.sortbar h4 span {float:right;font-size:11px;margin-top:5px;text-shadow:1px 1px 0 #fff;color:#000;}
+.sortbar h4 span a {color:#000;}
+.rightcolumn {padding:0 -20px 0 0;margin:0 0 0 -15px;background:#fff;}
+.leftcolumn {padding:0;background:#fff;margin:0;}
+#header {height:85px;background:none;background-color:transparent;}
+.logoimg {width:239px;height:40px;margin:5px 5px 0px 0;background:url(http://images.serenataflowers.com/logoflowers.png) top left no-repeat;}
+#toptabs {width:395px;}
+.header-search {width:100%;float:left;}
+.header-search-wrapper {position:relative;margin:0;padding:0;width:100%;}
+.header-search select {width:100px;padding:0.2em;margin:0 0 0 -5px;position:absolute;top:4px;left:13px;z-index:1000;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;border:1px solid #ccc;color:#888;}
+.header-search-field {padding:0;margin:0 0 0 5px;position:absolute;top:0;left:0;z-index:0;height:33px;width:80%;}
+.header-search-field .searchtop {width:100%;padding-left:110px;-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;height:33px;}
+#go {width:35px;position:absolute;right:1px;top:1px;-moz-border-radius-bottomright:10px;border-bottom-right-radius: 10px;-moz-border-radius-topright:10px;border-top-right-radius: 10px;}
+.welcome {margin:-3px 0 0 -10px;font-size:14px;color:#222;float:left;}
+.toplinks {margin:-3px 0 0 2px;float:left;}
+.basket {margin:0 0 4px 0;padding:0;color:#888;float:right;text-align:right;min-width:290px;}
+.basket img {width:34px;height:37px;float:left;margin:0;}
+.basket b {color:#2e2e2e;}
+	.basket span {float:left;border-bottom:1px dotted #ccc;margin:6px 0 0 5px;}
+em.sameday-btn {float:left;margin:11px 0 0 -10px;font-size:18px;text-shadow:-1px -1px 0 #fff;font-style:normal;color:#676666;}
+.sameday-img {float:right;margin:5px -10px 0 0;}
+.pagenav {margin:20px 0 20px 0;}
+.pagenav a {font-size:14px;text-align:right;color:#000;}
+.promobar {height:35px;padding:0 10px 10px 15px;margin:0 10px 10px 0;border:1px solid #e6e6e6;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;clear:both;}
+	.promobar h5 {margin:2px 0 0 0;color:#4c6dcc;text-shadow:1px 1px 0 #fff;}
+
+.gradient {background: -moz-linear-gradient(top, #ffffff, #ececec);
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#ececec));
+background: linear-gradient(top, #ffffff, #ececec);-webkit-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;-moz-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;}
+
+.gradient-green {background-image: -moz-linear-gradient(top, #ffffff, #dbe4c9);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#dbe4c9));
+background-image: linear-gradient(top, #ffffff, #dbe4c9);
+background-image: -ms-linear-gradient(top, #ffffff, #dbe4c9);
+background-image: -o-linear-gradient(top, #ffffff, #dbe4c9);}
+
+.feature {padding:0;margin:10px 15px 0 0;border:1px solid #e6e6e6;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;background-image:url(http://images.serenataflowers.com/featurebg.gif) bottom left repeat-x;
+background-image: -moz-linear-gradient(top, #ffffff, #dbe4c9);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#dbe4c9));
+background-image: linear-gradient(top, #ffffff, #dbe4c9);
+background-image: -ms-linear-gradient(top, #ffffff, #dbe4c9);
+background-image: -o-linear-gradient(top, #ffffff, #dbe4c9);
+}
+.feature-content {padding:10px 10px 10px 10px;margin-top:10px;height:360px;overflow:hidden;}
+.feature-wrapper {position:relative;margin:0;padding:0;}
+	.feature h3 {background: -moz-linear-gradient(top, #ffffff, #ececec);
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#ececec));
+background: linear-gradient(top, #ffffff, #ececec);-webkit-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;-moz-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;float:left;width:100%;margin:10px 0 0 0;border-bottom:1px solid #e6e6e6;padding:0 10px 15px 15px;color:#ff901b;text-shadow:1px 1px 0 #fff;height:40px;}
+	.feature h3 a {color:#ff901b;text-decoration:none;float:left;}
+	.feature h3 em {font-size:14px;margin:7px 0 3px 5px;float:left;}
+	.feature h3 span {float:right;margin:7px 10px 0 0;padding:0;font-size:12px;}
+	.feature h3 span a {text-decoration:underline;}
+	.feature .product {margin:4px 3px 4px 0px;}
+	.feature .product-hover {margin:4px 3px 4px 0px;}
+	span.topsellers {z-index:1000;width: 153px;height: 149px;display: block;position: absolute;top: -13px;right: -10px;background: url(http://images3.serenataflowers.com/topsellers-ribbon.png) no-repeat;}
+.seo {border-top:1px dotted #c2d0ae;padding-top:10px;margin-top:20px;}
+#seolinks {margin-bottom:20px;padding-top:20px;border-top:1px dotted #ccc;}
+.footer {padding-top:10px;border-top:1px dotted #ccc;}
+.footerbox {border-right:1px dotted #ccc;min-height:240px;padding:20px 20px 0 20px;}
+.footerbox h4 {color:#aeadad;}
+.panel.wizard {padding:10px 15px;min-height:247px;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;border:1px solid #e6e6e6;background: -moz-radial-gradient(top, #ffffff, #ececec);
+background: -webkit-gradient(radial, center top, center bottom, from(#ffffff), to(#ececec));
+background: radial-gradient(top, #ffffff, #ececec);}
+	.panel.wizard label {margin:0;color:#4c6dcc;font-weight:normal;text-shadow:1px 1px 0 #fff;}
+	.panel.wizard h3 {color:#4c6dcc;text-shadow:1px 1px 0 #fff;font-size:18px;text-align:center;}
+.clear {clear:both;font-size:1px;line-height:0px;}
+.blank {padding:0;margin:0;}
+
+/* ------------ homepage slider*/
+.slide1 {background:url(http://images.serenataflowers.com/homeslider1.jpg) top left no-repeat;height: 247px;}
+	.slide1 h4 {margin:30px 0 0 60px;font-size:36px;color:#fff;text-shadow:1px 1px 0 #3e3e3e;}
+	.slide1 div {margin:20px 60px 0 60px;color:#fff;padding:15px;background: rgba(255, 255, 255, 0.6);}
+	.slide1 ul.list li {background:url(http://images4.serenataflowers.com/listdot.png) no-repeat left 8px; padding:0px 0 2px 15px;color:#3e3e3e;font-size:16px;line-height:1.7em;}
+	.slide1 ul.list a {color:#3e3e3e;}
+.slide2 {background:url(http://images1.serenataflowers.com/homeslider2.jpg) top left no-repeat;height: 247px;}	
+.slide3 {background:url(http://images2.serenataflowers.com/homeslider3.jpg) top left no-repeat;height: 247px;}
+.slide4 {background:url(http://images3.serenataflowers.com/homeslider4.jpg) top left no-repeat;height: 247px;}
+.slide5 {background:url(http://images4.serenataflowers.com/homeslider5.jpg) top left no-repeat;height: 247px;}
+.slide6 {background:url(http://images5.serenataflowers.com/homeslider6.jpg) top left no-repeat;height: 247px;}
+	
+	/* prevents preload flashing/stacking content */
+	#featuredContent { background: url(http://images.serenataflowers.com/preloader.gif) center center #f4f4f4 no-repeat; height: 247px; width:100%;margin:0;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;}	
+	#featuredContent div {display:none;}
+	#featuredContent img {height:247px;width:auto;}
+	#featuredContent.orbit div {display: block;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;height: 247px;}
+
+/* sticky buttons */
+.sticky-button-wrapper {position:fixed;top:40%;right:0;z-index:1000;}
+.sticky-button {background:url(http://images1.serenataflowers.com/sticky-buttons-img.png) no-repeat;}
+	.sticky-button.contact {height:108px;width:40px;margin:0;padding:0;display:block;background-position:-40px 0;}
+	.sticky-button.contact:hover {background-position:0 0;}
+	.sticky-button.faq {height:54px;width:40px;margin-top:3px;padding:0;display:block;background-position:-40px -110px;}
+	.sticky-button.faq:hover {background-position:0 -110px;}
+	.sticky-button.help {height:54px;width:40px;margin-top:3px;padding:0;display:block;background-position:-40px -166px;}
+	.sticky-button.help:hover {background-position:0 -166px;}
+
+/* leftnav sprite */
+.lnav-sprite {background:url(http://images2.serenataflowers.com/lnav-sprite.png) no-repeat;}
+	.icon {height:38px;width:34px;margin:1px -5px 0 0;float:right;padding:0;}	
+		/*icons*/
+		.offers {background-position:0 0;}
+		.postal {background-position:-34px 0;}
+		.season {background-position:-68px 0;}
+		.bestseller {background-position:-102px 0;}
+		.toprated {background-position:-136px 0;}
+		.new {background-position:-170px 0;}
+		.birthday {background-position:-204px 0;}
+		.anniversary {background-position:-238px 0;}
+		.newbaby {background-position:-272px 0;}
+		.sympathy {background-position:-306px 0;}
+		.funeral {background-position:-340px 0;}
+		.balloons {background-position:-374px 0;}
+		.international {background-position:-410px 0;}
+		.thankyou {background-position:-444px 0;}
+		.romantic {background-position:-478px 0;}
+		.getwell {background-position:-512px 0;}
+		.thinking {background-position:-546px 0;}
+
+/* stars sprite */
+.stars-sprite {background:url(http://images3.serenataflowers.com/stars-sprite.png) no-repeat;}
+	.star {height:19px;width:88px;margin:0;padding:0;display:block;vertical-align:middle;float:left;}	
+		/*icons*/
+		.one {background-position:0 0;}
+		.one-and-half {background-position:0 -19px;}
+		.two {background-position:0 -38px;}
+		.two-and-half {background-position:0 -57px;}
+		.three {background-position:0 -76px;}
+		.three-and-half {background-position:0 -95px;}
+		.four {background-position:0 -114px;}
+		.four-and-half {background-position:0 -133px;}
+		.five {background-position:0 -152px;}
+		
+/* footer sprite */
+.footerimg {background:url(http://images1.serenataflowers.com/footerimgs.jpg) no-repeat;}
+	.facebook-icon {height:49px;width:50px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 0;}	
+	.twitter-icon {height:49px;width:50px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:-49px 0;}
+	.google-icon {height:49px;width:50px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:-98px 0;}
+	.youtube-icon {height:49px;width:50px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:-147px 0;}
+	.serenatachocolates {height:34px;width:160px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 -50px;}
+	.serenatahampers {height:34px;width:160px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 -84px;}
+	.serenatawines {height:34px;width:160px;margin:5px 0 0 0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 -118px;}
+	.payment-methods {height:58px;width:250px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 -158px;}
+	.basketimg {height:38px;width:34px;margin:0;padding:0;display:block;vertical-align:middle;float:left;background-position:-204px 0;}
+
+/* steps numbers sprite */
+.productpage-imgs {background:url(http://images1.serenataflowers.com/prodpage-imgs.png) no-repeat;}
+	.step1 {height:37px;width:37px;margin:0 10px 5px 0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 0;}	
+	.step2 {height:36px;width:37px;margin:0 10px 5px 0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 -37px;}
+	.step3 {height:37px;width:37px;margin:0 10px 5px 0;padding:0;display:block;vertical-align:middle;float:left;background-position:0 -73px;}
+	/* mini-stars */
+	.mini-one {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px 0;}
+	.mini-one-and-half {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -13px;}
+	.mini-two {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -25px}
+	.mini-two-and-half {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -37px}
+	.mini-three {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -51px}
+	.mini-three-and-half {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -63px}
+	.mini-four {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -76px}
+	.mini-four-and-half {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -89px}
+	.mini-five {height:13px;width:58px;margin:0;padding:0;display:block;float:left;background-position:-37px -101px}
+		
+		
+/* ------------ reviews */
+
+.box.review {float:left;margin:10px 20px 10px 20px; height:auto;width:95%;display:block;}
+	.box.review .r_info {float:left;width:150px;margin:0;padding:10px;}		
+		.box.review .r_info b {font:normal 18px "Helvetica Neue", "Helvetica", Helvetica, tahoma, sans-serif;color:#8aa064;}
+	.box.review .r_text {margin-top:10px;float:left;width:70%;}
+		.box.review .r_text p {padding:10px 20px 10px 20px;font-family:georgie, serif;font-style:italic;margin-top:0;font-size:14px;color:#888;line-height:1.5em;}
+
+.review {float:left;margin:5px 5px 10px 5px; height:auto;width:95%;display:block;}
+	.review .r_info {float:left;width:150px;margin:0;padding:5px;}		
+		.review .r_info b {font:normal 18px "Helvetica Neue", "Helvetica", Helvetica, tahoma, sans-serif;color:#8aa064;}
+	.review .r_text {margin-top:5px;float:left;width:170px;}
+		.review .r_text p {padding:5px 10px 5px 5px;font-family:georgie, serif;font-style:italic;margin-top:0;font-size:14px;color:#888;line-height:1.5em;}
+
+/* ------------ category */
+
+.box.category {padding-left:20px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;margin-bottom:10px;}
+.box.category h2 {color:#888;}
+.box.category p {width:350px;color:#616161;}
+
+/* ------------ spotlight */
+
+.box.spotlight {height:auto;padding:0;margin:0 0 0 0;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;}
+	.box.spotlight h4 {float:left;width:100%;margin:10px 0 0 0;padding:0 10px 10px 15px;border-bottom:1px solid #e6e6e6;text-shadow:1px 1px 0 #fff;}
+	.box.spotlight h4 span {float:right;font-size:12px;color:red;margin-top:5px;text-shadow:1px 1px 0 #fff;}
+	.spotlight-left {float:left;width:170px;padding:0 5px 0 10px;}
+		.spot-thumb {margin:0;border:1px solid #d5d4d4;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+		.spotwrapper {width:150px;height:175px;margin:8px 0 12px 0;padding:0;position:relative;}
+			span.bestseller {width: 80px;height: 78px;display: block;position: absolute;top: -1px;left: -1px;background: url(http://images3.serenataflowers.com/bestseller-ribbon.png) no-repeat;}
+	.spotlight-middle {float:left;width:210px;}
+	.spotlight-middle-thumb {float:left;width:170px;padding:3px 0 0 8px;}
+		.spot-thumb-small {float:left;margin:4px 10px 0 0;border:1px solid #d5d4d4;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+	.spotligh-right {padding:0 10px 0 0;margin:5px 0 0 0;width:180px;float:left;}
+	p.countdown {color:#ff901b;font-size:18px;margin:8px 0 0 0;line-height:1.2em;padding:0;}
+	p.countdown span {color:#898787;font-size:14px;line-height:1.2em;}
+	p.countdown span b {color:#525150;text-transform:uppercase;}
+	
+	p.spot-desc {float:left;height:113px;width:175px;margin:4px 10px 0 0;padding:0;}
+	.subtxt {font-size:11px;color:#969393;}
+	.prices {margin-top:20px;border-top:1px dotted #ccc;padding-top:8px;width:100%;}
+	.prices a {float:left;font-size:10px;width:auto;margin:0;padding:0;color:#babbb9;}
+	.spotlight-rating {float:left;margin:8px 0 0 0;width:100%;text-align:left;}
+	.spotlight-rating b {color:#525150;}
+
+.box.international {height:auto;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;background:url(http://images3.serenataflowers.com/globe2.jpg) bottom right no-repeat;}
+.box.international .left {width:50%;float:left;padding:10px;}
+.box.international .right {width:50%;float:left;padding:10px;}
+
+/* smaller widths */
+@media only screen and (max-width: 1024px) { 
+	.panel.wizard h3 {color:#4c6dcc;text-shadow:1px 1px 0 #fff;font-size:16px;}	
+	.spotlight-middle-thumb {display:none !important;}
+	.spotlight-middle {float:left;width:250px;margin-right:10px;}
+	.spotligh-right {padding:0 10px 0 10px;margin:5px 0 0 0;width:200px;float:left;}
+	div#prod-block-right {display:none !important;}
+	.topsearchfield {width:180px;float:left;}
+	.baskethide {display:none !important;margin:0;padding:0;}
+	#search-dropdown {display:none !important;}
+	#toptabs {width:390px;float:left;}
+	.promobar h5 {margin:2px 0 0 0;text-shadow:1px 1px 0 #fff;font-size:14px;}
+	body {overflow-x:hidden;**overflow: -moz-scrollbars-vertical;overflow-x: hidden;}	
+	.feature-content .product {z-index:50;float:left;width:144px; height:345px;background:#fff url(http://images1.serenataflowers.com/leftnavbg.png) bottom left repeat-x;margin:20px 9px 4px 0px; padding:0;border-spacing: 0;border-collapse:collapse;border:1px solid #d7d7d7;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+	.feature-content .product-hover {float:left;width:144px; height:345px;margin:20px 9px 4px 0px; padding:0;background:#fff url(http://images1.serenataflowers.com/prodstepbg_green.gif) bottom left repeat-x;border-spacing: 0;border-collapse:collapse;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;border:1px solid #bababa;-moz-box-shadow:0 0 8px #cfe3ae;-webkit-box-shadow:0 0 8px #cfe3ae;box-shadow:0 0 8px #cfe3ae;}
+	em.sameday-btn {font-size:14px;margin:13px 0 0 -10px;}
+}
+
+/* ------------ UPS */
+
+.box.ups {height:auto;padding:0;margin:0 0 0 0;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;background-image: -moz-linear-gradient(top, #ffffff, #e7eed9);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#e7eed9));
+background-image: linear-gradient(top, #ffffff, #e7eed9);
+background-image: -ms-linear-gradient(top, #ffffff, #e7eed9);
+background-image: -o-linear-gradient(top, #ffffff, #e7eed9);}
+	.box.ups h5 {float:left;width:100%;margin:10px 0 0 0;padding:0 10px 10px 15px;border-bottom:1px solid #e6e6e6;text-shadow:1px 1px 0 #fff;clear:both;}
+	.box.ups ul {list-style-type:none;list-style-image:none;margin:10px 6px 10px 6px;padding:0px;background:transparent;}
+	.box.ups ul li {background:url(http://images1.serenataflowers.com/ups-star.png) no-repeat left 0px; padding:0 0 0 27px;color:#888;line-height:1.3em;margin-top:4px;}
+	.box.ups ul li b {color:#8aa064;font-size:12px;font-weight:bold;}
+	
+/* ------------ product template */
+
+.product {z-index:50;float:left;width:144px; height:328px;background:#fff url(http://images1.serenataflowers.com/leftnavbg.png) bottom left repeat-x;margin:4px 9px 4px 0px; padding:0;border-spacing: 0;border-collapse:collapse;border:1px solid #d7d7d7;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+.product-hover {float:left;width:144px; height:328px;margin:4px 9px 4px 0px; padding:0;background:#fff url(http://images1.serenataflowers.com/prodstepbg_green.gif) bottom left repeat-x;border-spacing: 0;border-collapse:collapse;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;border:1px solid #bababa;-moz-box-shadow:0 0 8px #cfe3ae;-webkit-box-shadow:0 0 8px #cfe3ae;box-shadow:0 0 8px #cfe3ae;}
+	.product-wrapper {margin:1px;position: relative;width: 144px;height: 163px;background:none;}
+	img.prodImage {width:140px;height:163px;margin:0;padding:0;}
+	.product-wrapper a {text-decoration: none;margin:0;background:none;padding:0;}	
+	.product-wrapper img {margin:0;background:none;padding:0;}	
+	.product-wrapper em {height:17px;width:140px;line-height:1.1em;color: #a4a4a4;font: normal 10px tahoma, verdana, sans-serif;padding: 2px 0 0 0;display: block;position: absolute;top: 150px;right: 3px;text-align:right;font-style:italic;}
+	.product-bottom {height:78px; width:140px;text-align:center;margin:0 auto;padding:0px;}			
+		.product-bottom .left {font:normal 10px tahoma, sans-serif;width:75px;float:left;text-align:left;color:#666;padding:1px 0 2px 10px;}
+			.product-bottom .left b {color:#000;font-weight:bold;}
+		.product-bottom .right {width:60px;float:left;text-align:left;padding:1px 0 2px 0;}
+		.product-bottom h5 {font:normal 10px tahoma, verdana, sans-serif;margin:0;padding:0 0 6px 0;}
+	
+	.product-button {padding:5px 0 0 12px;height:35px;width:140px;margin:0;}
+	.product-title {font:normal 10px tahoma, verdana, sans-serif;}
+	.oldprice {font:normal 11px tahoma, Verdana, sans-serif; color:#717171;text-decoration:line-through;}
+	.offerprice {font:normal 11px tahoma, Verdana, sans-serif; color:red;}
+	.normalprice {font:normal 11px tahoma, Verdana, sans-serif; color:#3e3e3e;margin-top:16px;float:left;width:150px;clear:both;}	
+	#qzoom, #qzoom a {position:absolute;top:3px;left:113px;z-index:1;width:33px;height:33px;background:url(http://images1.serenataflowers.com/magnify2010.png) top left no-repeat;outline:0;border:0;}
+	#video_icon, #video_icon a {position:absolute;top:3px;left:113px;z-index:1;width:33px;height:33px;background:url(http://images2.serenataflowers.com/video_icon.png) top left no-repeat;outline:0;border:0;}
+	
+	.product-rating {float:left;margin:8px 0 0 8px;width:130px;font:normal 11px tahoma, Verdana, sans-serif;text-align:center;}
+	.rating-count a {float:left;font-size:10px;text-align:center;width:140px;margin:0;padding:0;color:#babbb9;}
+	.oldprice_large {font:normal 16px 'Helvetica Neue',Helvetica, Arial, tahoma, Verdana, sans-serif; color:#5d5d5d;text-decoration:line-through;letter-spacing:-1px;}
+	.offerprice_large {font:normal 18px 'Helvetica Neue',Helvetica, Arial, tahoma, Verdana, sans-serif; color:red;letter-spacing:-1px;}
+	.normalprice_large {font:normal 13px 'Helvetica Neue',Helvetica, Arial, tahoma, Verdana, sans-serif; color:#3e3e3e;letter-spacing:-1px;}
+
+:-moz-placeholder {color:gray;font-style:italic;}
+/*textarea:-moz-placeholder {color:gray;font-style:italic;}*/
+input::-webkit-input-placeholder  {color:gray;font-style:italic;}
+textarea::-webkit-input-placeholder {color:gray;font-style:italic;}
+input:-ms-input-placeholder {color:gray;font-style:italic;}
+textarea:-ms-input-placeholder {color:gray;font-style:italic;}
+
+/* upsells */
+
+.upsell {float:left;width:75px;margin:5px 5px 5px 0;padding:0 0 5px 0;-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);box-shadow:1px 1px 2px rgba(0,0,0,0.2);-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;border:3px solid #f1f1f1;text-align:center;}
+.card { float:left;display: block;margin:4px;border: solid 4px #ccc; font-size:11px;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;padding:4px;}
+.card img { width:90px; height:125px; display: block;}
+.card:hover { -webkit-box-shadow: 0 0 6px 1px rgba(138, 160, 100, 0.5); -moz-box-shadow: 0 0 6px 1px rgba(138, 160, 100, 0.5); box-shadow: 0 0 6px 1px rgba(138, 160, 100, 0.5); }
+.zoom {cursor: -webkit-zoom-in; cursor: -moz-zoom-in;}
+.selected { float:left;display: block; border: solid 4px #8aa064;font-size:11px;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;padding:4px;}
+.secbox {background:#fff;margin-top:21px;border:1px solid #e6e6e6;padding:10px;font-size:11px;font-weight:normal;text-align:left;}
+.infotext {font-size:11px;color:#666;font-style:italic;margin:0;}
+ul.list_inline {list-style-type:none;list-style-image:none;margin:3px;padding:0;background:transparent;}
+ul.list_inline li {background:url(http://images1.serenataflowers.com/listdot.png) no-repeat left 4px; padding:2px 0 0 15px;color:#666;display:inline;}
+ul.list {list-style-type:none;list-style-image:none;margin:0;padding:0;background:transparent;line-height:1.5em;}
+ul.list li {background:url(http://images4.serenataflowers.com/listdot.png) no-repeat left 4px; padding:0px 0 2px 15px;color:#888;}
+
+
+.filters {padding:5px 0 5px 7px;}
+.filters em {color:#ccc;font-size:11px;}
+.filters a {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;width:100%;display:block;float:left;padding:2px 0 2px 0;text-decoration:none;}
+.filters a:hover {background:#f1f1f1;}
+.filters a.selected {background:#f1f1f1;border:1px solid #ccc;}
+.filters a.thumb {width:70px;float:left;margin:5px 8px 5px 0;border:1px solid #ccc;background:none;}
+.filters a.thumb:hover {width:70px;float:left;margin:5px 8px 5px 0;border:1px solid #888;background:none;}
+
+/* product page */
+
+#prod-block-left {margin:0;padding:0;width:1020px;}
+#prod-block-right {width:160px;margin:0;padding:0;}
+#steps {margin:-5px 0 0 -15px;padding:0;width:415px;}
+.box .step h4 {float:left;width:250px;clear:both;margin-bottom:5px;}
+select.date {float:left;padding:5px;width:180px;margin:0 0 8px 0;font:normal 1em/1.4 courier new, Arial, Geneva, Helvetica, Sans-Serif;}
+.product-feature {width:552px;border:1px solid #ccc;margin:0;padding:0;-moz-border-radius-bottomleft:6px;border-bottom-left-radius: 6px; -moz-border-radius-bottomright:6px;border-bottom-right-radius: 6px;}
+	.product-feature .large-image {border-bottom:1px solid #ccc;}
+	.product-feature .hourglass {width:35px;height:100px;float:left;}
+	.product-feature .box {margin:0 7px 0 7px;width:165px;height:100px;float:left;background:#fff;padding:6px;}
+	.product-feature .bottom {margin:5px 0 0 0;padding:0 0 5px 0;}
+	.product-feature .thumb {border:1px solid #ececec;float:left;}
+		.thumb-wrapper {margin:0;padding:0;position:relative;width:100px;height:100px;display: block;float:left;}
+		span.swap {background:url(http://images.serenataflowers.com/thumb_zoom.png) no-repeat;position:absolute;top:0;right:0;width:49px;height:49px;}
+	.product-feature p.countdown {color:#ff901b;font-size:14px;margin:8px 0 0 0;line-height:1.2em;padding:0;}
+	.product-feature p.countdown span {color:#898787;font-size:12px;line-height:1.2em;}
+	.product-feature p.countdown span b {color:#525150;text-transform:uppercase;}
+	.product-ft-overlay {margin:0;padding:0;position:relative;width:550px;height:550px;}
+		span.rating_overlay_l {width: 250px;height: 50px;display: block;position: absolute;top: 0px;left:0px;background: url(http://images1.serenataflowers.com/alpha_white2.png) repeat;font:normal 11px tahoma, arial, verdana;color:#717171;padding:6px 0 0 10px;text-align:left;-moz-border-radius-bottomright:10px;border-bottom-right-radius: 8px;-moz-box-shadow:0 0 8px #ccc;-webkit-box-shadow:0 0 8px #ccc;box-shadow:0 0 8px #ccc;}
+			span.rating_overlay_l .rating {width:200px;}
+		span.bud_l {width: 300px;height: 134px;display: block;position: absolute;bottom: 0px;right:0px;background: url(http://images2.serenataflowers.com/budform_l.png) no-repeat;}
+		span.freedel_l {width: 153px;height: 149px;display: block;position: absolute;top: -1px;right:-1px;background: url(http://images3.serenataflowers.com/freedel_l2.png) no-repeat;}
+		span.prodtype {width: 95px;height: 104px;display: block;position: absolute;bottom: -1px;left:0;background: url(http://images4.serenataflowers.com/standard_product.png) no-repeat;}
+	
+.product.iyml{z-index:50;float:left;width:144px; height:240px;background:#fff url(http://images1.serenataflowers.com/leftnavbg.png) bottom left repeat-x;margin:4px 9px 4px 0px; padding:0;border-spacing: 0;border-collapse:collapse;border:1px solid #d7d7d7;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+.product-hover.iyml {float:left;width:144px; height:240px;margin:4px 9px 4px 0px; padding:0;background:#fff url(http://images1.serenataflowers.com/prodstepbg_green.gif) bottom left repeat-x;border-spacing: 0;border-collapse:collapse;-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;border:1px solid #bababa;-moz-box-shadow:0 0 8px #cfe3ae;-webkit-box-shadow:0 0 8px #cfe3ae;box-shadow:0 0 8px #cfe3ae;}
+.product-bottom.iyml {height:40px; width:140px;text-align:center;margin:0 auto;padding:0px;}
+#huge-button.button {text-align:center;margin:5px 0 0 0;width:100%;font-size:30px;letter-spacing:-1px;line-height:20px;padding:12px 0 10px 0;}
+#huge-button.button span {font-size:12px;letter-spacing:0px;margin-top:-10px;}
+
+/* My account */
+
+a.box.myacc {padding-bottom:10px;display:block;cursor:pointer;}
+a.box.myacc:hover {background:#fff;}
+a.box.myacc p {margin:15px 0 0 20px}
+
+/* help */
+
+.box.help {float:left;padding:5px;display:block;width:175px;height:175px;margin:5px;}
+.box.help img {float:left;margin:0;padding:0;}
+.box.help h5 {float:left;padding:2px 0 0 5px;}
+.box.help:hover {background:#fff;border-color:#ccc;}
+.box.help p {font-size:11px;margin:10px 0 0 4px;float:left;width:155px;}
+
+/* End Custom ==========--------------------*/
+
+/* hide */
+@media only screen and (max-device-width: 1024px) { 
+	img[class="hide"], table[class="hide"], td[class="hide"], p[class="hide"], div[class="hide"] {display:none !important;
+	}
+}
+
+
+
+/* Links ---------------------- */
+a img { border: none; }
+a { color: #8aa064; text-decoration: underline; line-height: inherit; }
+a:hover { color: #7d9159; }
+a:focus { color: #8aa064; outline: none; }
+p a, p a:visited { line-height: inherit; }
+
+/* Misc ---------------------- */
+.left { float: left; }
+.right { float: right; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+/*.hide { display: none !important; }*/
+
+.highlight { background: #ffff99; }
+#googlemap img, object, embed { max-width: none; }
+#map_canvas embed { max-width: none; }
+#map_canvas img { max-width: none; }
+#map_canvas object { max-width: none; }
+
+/* Reset for strange margins by default on <figure> elements */
+figure { margin: 0; }
+
+/* Base Type Styles Using Modular Scale ---------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; font-size: 12px; direction: ltr; }
+
+p { font-family: inherit; font-weight: normal; font-size: 12px; line-height: 1.6; margin-bottom: 17px; }
+p.lead { font-size: 15px; line-height: 1.6; margin-bottom: 17px; }
+
+aside p { font-size: 11px; line-height: 1.35; font-style: italic; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; color: #8aa064; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 12px; margin-top: 12px; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
+h1 { font-size: 44px; }
+h2 { font-size: 31px; }
+h3 { font-size: 27px; }
+h4 { font-size: 19px; }
+h5 { font-size: 17px; }
+h6 { font-size: 12px; }
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 22px 0 21px; height: 0; }
+.subheader { line-height: 1.3; color: #6f6f6f; font-weight: 300; margin-bottom: 17px; }
+em, i { font-style: italic; line-height: inherit; }
+strong, b { font-weight: bold; line-height: inherit; }
+small { font-size: 60%; line-height: inherit; }
+code { font-weight: bold; background: #ffff99; }
+
+/* Lists ---------------------- */
+ul, ol, dl { font-size: 12px; line-height: 1.6; margin-bottom: 17px; list-style-position: outside; }
+ol li {color:#888;}
+ul li ul, ul li ol { margin-left: 20px; margin-bottom: 0; }
+ul.square, ul.circle, ul.disc { margin-left: 17px; }
+ul.square { list-style-type: square; }
+ul.square li ul { list-style: inherit; }
+ul.circle { list-style-type: circle; }
+ul.circle li ul { list-style: inherit; }
+ul.disc { list-style-type: disc; }
+ul.disc li ul { list-style: inherit; }
+ul.no-bullet { list-style: none; }
+ul.large li { line-height: 21px; }
+
+ol { margin-left: 20px; }
+ol li ul, ol li ol { margin-left: 20px; margin-bottom: 0; }
+
+/* Blockquotes ---------------------- */
+blockquote, blockquote p { line-height: 1.5; color: #6f6f6f; }
+blockquote { margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 11px; color: #555555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited { color: #555555; }
+
+abbr, acronym { text-transform: uppercase; font-size: 90%; color: #222222; border-bottom: 1px solid #ddd; cursor: help; }
+abbr { text-transform: none; }
+
+/* Requires globals.css */
+/* Standard Forms ---------------------- */
+form { margin: 0 0 19.41641px; }
+
+.row form .row { margin: 0 -6px; }
+.row form .row .column, .row form .row .columns { padding: 0 6px; }
+.row form .row.collapse { margin: 0; }
+.row form .row.collapse .column, .row form .row.collapse .columns { padding: 0; }
+
+label { font-size: 12px; color: #4d4d4d; cursor: pointer; display: block; font-weight: 700; margin-bottom: 3px; }
+label.right { float: none; text-align: right; }
+label.inline { line-height: 30px; margin: 0 0 12px 0; }
+
+.prefix, .postfix { display: block; position: relative; z-index: 2; text-align: center; width: 100%; padding-top: 0; padding-bottom: 0; height: 30px; line-height: 29px; }
+
+a.button.prefix, a.button.postfix { padding-left: 0; padding-right: 0; text-align: center; }
+
+span.prefix, span.postfix { background: #f2f2f2; border: 1px solid #cccccc; }
+
+.prefix { left: 2px; -moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-bottomleft: 2px; -webkit-border-bottom-left-radius: 2px; border-bottom-left-radius: 2px; overflow: hidden; }
+
+.postfix { right: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; -moz-border-radius-bottomright: 2px; -webkit-border-bottom-right-radius: 2px; border-bottom-right-radius: 2px; }
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea { background-color: white; font-family: inherit; border: 1px solid #cccccc; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.75); display: block; font-size: 14px; margin: 0 0 12px 0; padding: 6px; height: 30px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; }
+input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize { font-size: 17px; padding: 4px 6px; }
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus { background: #fafafa; outline: none !important; border-color: #b3b3b3; }
+input[type="text"][disabled], input[type="password"][disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="email"][disabled], input[type="number"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="time"][disabled], input[type="url"][disabled], textarea[disabled] { background-color: #ddd; }
+
+textarea { height: auto; }
+select { width: 100%; }
+
+/* Fieldsets */
+fieldset { border: solid 1px #ddd; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; padding: 12px 12px 0; margin: 18px 0; }
+fieldset legend { font-weight: bold; background: white; padding: 0 3px; margin: 0; margin-left: -3px; }
+
+/* Errors */
+.error input, input.error, .error textarea, textarea.error { border-color: #c60f13; background-color: rgba(198, 15, 19, 0.1); }
+
+.error label, label.error { color: #c60f13; }
+
+.error small, small.error { display: block; padding: 6px 4px; margin-top: -13px; margin-bottom: 12px; background: #c60f13; color: #fff; font-size: 10px; font-weight: bold; -moz-border-radius-bottomleft: 2px; -webkit-border-bottom-left-radius: 2px; border-bottom-left-radius: 2px; -moz-border-radius-bottomright: 2px; -webkit-border-bottom-right-radius: 2px; border-bottom-right-radius: 2px; }
+
+.error textarea:focus, textarea.error:focus { background: #fafafa; border-color: #b3b3b3; }
+
+/* Buttons with Dropdowns ---------------------- */
+.button.dropdown { position: relative; padding-right: 38px; -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; border-top-left-radius: 6px; -moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px;-moz-border-radius-bottomleft: none; -webkit-border-bottom-left-radius: none; border-bottom-left-radius: none;/* Sizes */ /* Triangles */ /* Flyout List */ /* Split Dropdown Buttons */ }
+.button.dropdown a {text-decoration:none;color:#888;text-shadow:-1px -1px 0 #fff;}
+.button.dropdown.large { padding-right: 48px; }
+.button.dropdown.small { padding-right: 16px; }
+.button.dropdown.tiny { padding-right: 8px; }
+.button.dropdown:after { content: ""; display: block; width: 0; height: 0; border: solid 6px; border-color: white transparent transparent transparent; position: absolute; top: 50%; right: 14px; margin-top: -2px; }
+.button.dropdown.large:after { content: ""; display: block; width: 0; height: 0; border: solid 7px; border-color: white transparent transparent transparent; margin-top: -3px; right: 24px; }
+.button.dropdown.small:after { content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: white transparent transparent transparent; margin-top: -2px; right: 8px; }
+.button.dropdown.tiny:after { content: ""; display: block; width: 0; height: 0; border: solid 4px; border-color: white transparent transparent transparent; margin-top: -1px; right: 4px; }
+.button.dropdown > ul { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; display: none; position: absolute; left: -1px; background: #fff; background: rgba(255, 255, 255, 0.95); list-style: none; margin: 0; padding: 0; border: 1px solid #cccccc; border-top: none; min-width: 100%; z-index: 40; }
+.button.dropdown > ul li { width: 100%; cursor: pointer; padding: 0; min-height: 18px; line-height: 18px; margin: 0; white-space: nowrap; list-style: none; }
+.button.dropdown > ul li a { display: block; color: #555; font-size: 12px; font-weight: normal; padding: 6px 14px; text-align: left; font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;}
+.button.dropdown > ul li:hover { background-color: #f5f7f2; color: #222; }
+.button.dropdown > ul li.divider { min-height: 0; padding: 0; height: 1px; margin: 4px 0; background: #ededed; }
+.button.dropdown.up > ul { border-top: 1px solid #cccccc; border-bottom: none; }
+.button.dropdown ul.no-hover.show-dropdown { display: block !important; }
+.button.dropdown:hover > ul.no-hover { display: none; }
+.button.dropdown.split { padding: 0; position: relative; /* Sizes */ /* Triangle Spans */ /* Colors */ }
+.button.dropdown.split:after { display: none; }
+.button.dropdown.split:hover { background-color: #8aa064; }
+.button.dropdown.split.alert:hover { background-color: #c60f13; }
+.button.dropdown.split.success:hover { background-color: #9ed84c; }
+.button.dropdown.split.secondary:hover { background-color: #e9e9e9; }
+.button.dropdown.split > a { color: white; display: block; padding: 7px 35px 8px 14px; padding-left: 14px; padding-right: 35px; }
+.button.dropdown.split > a:hover { background-color: #6f824f; }
+.button.dropdown.split.large > a { padding: 12px 60px 13px 24px; padding-left: 24px; padding-right: 60px; }
+.button.dropdown.split.small > a { padding: 4px 20px 5px 8px; padding-left: 8px; padding-right: 20px; }
+.button.dropdown.split.tiny > a { padding: 2px 10px 3px 4px; padding-left: 4px; padding-right: 10px; }
+.button.dropdown.split > span { background-color: #8aa064; position: absolute; right: 0; top: 0; height: 100%; width: 21px; border-left: 1px solid #627246; -webkit-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5) inset; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; }
+.button.dropdown.split > span:hover { background-color: #6f824f; }
+.button.dropdown.split > span:after { content: ""; display: block; width: 0; height: 0; border: solid 6px; border-color: white transparent transparent transparent; position: absolute; top: 50%; left: 50%; margin-left: -6px; margin-top: -2px; }
+.button.dropdown.split.secondary > span:after { content: ""; display: block; width: 0; height: 0; border: solid 6px; border-color: #1d1d1d transparent transparent transparent; }
+.button.dropdown.split.large span { width: 36px; }
+.button.dropdown.split.small span { width: 12px; }
+.button.dropdown.split.tiny span { width: 6px; }
+.button.dropdown.split.large span:after { content: ""; display: block; width: 0; height: 0; border: solid 7px; border-color: white transparent transparent transparent; margin-top: -3px; margin-left: -7px; }
+.button.dropdown.split.small span:after { content: ""; display: block; width: 0; height: 0; border: solid 4px; border-color: white transparent transparent transparent; margin-top: -1px; margin-left: -4px; }
+.button.dropdown.split.tiny span:after { content: ""; display: block; width: 0; height: 0; border: solid 3px; border-color: white transparent transparent transparent; margin-top: -1px; margin-left: -3px; }
+.button.dropdown.split.alert > span { background-color: #c60f13; border-left-color: #7f0a0c; }
+.button.dropdown.split.success > span { background-color: #9ed84c; border-left-color: #78b127; }
+.button.dropdown.split.secondary > span { background-color: #e9e9e9; border-left-color: #c3c3c3; }
+.button.dropdown.split.secondary > a { color: #1d1d1d; }
+.button.dropdown.split.alert > a:hover, .button.dropdown.split.alert > span:hover { background-color: #970b0e; }
+.button.dropdown.split.success > a:hover, .button.dropdown.split.success > span:hover { background-color: #86c62b; }
+.button.dropdown.split.secondary > a:hover, .button.dropdown.split.secondary > span:hover { background-color: #d0d0d0; }
+
+/* Correct FF custom dropdown height */
+@-moz-document url-prefix() { form.custom div.custom.dropdown a.selector { height: 30px; } }
+
+.lt-ie9 form.custom div.custom.dropdown a.selector { height: 30px; }
+
+/* The Grid ---------------------- */
+.row { width: 100%; max-width: 100%; /*min-width: 768px;*/ margin: 0 auto; background:none;}
+.row .row { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
+.row.collapse .column, .row.collapse .columns { padding: 0; }
+.row .row { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
+.row .row.collapse { margin: 0; }
+
+.column, .columns { float: left; min-height: 1px; padding: 0 15px; position: relative; }
+.column.centered, .columns.centered { float: none; margin: 0 auto; }
+
+[class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"].end { float: left; }
+.one, .row .one { width: 8.33333%; }
+.two, .row .two { width: 16.66667%; }
+.three, .row .three { width: 25%; }
+.four, .row .four { width: 33.33333%; }
+.five, .row .five { width: 41.66667%; }
+.six, .row .six { width: 50%; }
+.seven, .row .seven { width: 58.33333%; }
+.eight, .row .eight { width: 66.66667%; }
+.nine, .row .nine { width: 75%; }
+.ten, .row .ten { width: 83.33333%; }
+.eleven, .row .eleven { width: 91.66667%; }
+.twelve, .row .twelve { width: 100%; }
+.row .offset-by-one { margin-left: 8.33333%; }
+.row .offset-by-two { margin-left: 16.66667%; }
+.row .offset-by-three { margin-left: 25%; }
+.row .offset-by-four { margin-left: 33.33333%; }
+.row .offset-by-five { margin-left: 41.66667%; }
+.row .offset-by-six { margin-left: 50%; }
+.row .offset-by-seven { margin-left: 58.33333%; }
+.row .offset-by-eight { margin-left: 66.66667%; }
+.row .offset-by-nine { margin-left: 75%; }
+.row .offset-by-ten { margin-left: 83.33333%; }
+.push-two { left: 16.66667%; }
+.pull-two { right: 16.66667%; }
+.push-three { left: 25%; }
+.pull-three { right: 25%; }
+.push-four { left: 33.33333%; }
+.pull-four { right: 33.33333%; }
+.push-five { left: 41.66667%; }
+.pull-five { right: 41.66667%; }
+.push-six { left: 50%; }
+.pull-six { right: 50%; }
+.push-seven { left: 58.33333%; }
+.pull-seven { right: 58.33333%; }
+.push-eight { left: 66.66667%; }
+.pull-eight { right: 66.66667%; }
+.push-nine { left: 75%; }
+.pull-nine { right: 75%; }
+.push-ten { left: 83.33333%; }
+.pull-ten { right: 83.33333%; }
+
+img, object, embed { max-width: 100%; height: auto; }
+
+object, embed { height: 100%; }
+
+img { -ms-interpolation-mode: bicubic; }
+
+#map_canvas img, .map_canvas img { max-width: none!important; }
+
+/* Nicolas Gallagher's micro clearfix */
+.row { *zoom: 1; }
+.row:before, .row:after { content: " "; display: table; }
+.row:after { clear: both; }
+
+/* Normal Buttons ---------------------- */
+.button { width: auto; background: #ff901b; border: 1px solid #e07b11; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; cursor: pointer; display: inline-block; font-family: inherit; font-size: 12px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 7px 14px 8px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; /* Hovers */ /* Sizes */ /* Colors */ /* Radii */ /* Layout */ /* Disabled ---------- */ text-shadow:-1px -1px 0 #df780c;}
+.button:hover { color: white; background-color: #df780c; }
+.button:active { -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
+.button:focus { -webkit-box-shadow: 0 0 4px #8aa064, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #8aa064, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #8aa064, 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; }
+.button.large { font-size: 17px; padding: 12px 24px 13px; }
+.button span {padding:0;margin:-3px 0 0 0;font-size:11px;}
+.button.medium { font-size: 12px; }
+.button.small { font-size: 9px; padding: 4px 8px 5px; }
+.button.tiny { font-size: 8px; padding: 2px 4px 3px; }
+.button.expand { width: 100%; text-align: center; }
+.button.primary { background-color: #8aa064; border: 1px solid #627246;text-shadow:-1px -1px 0 #687e43;}
+.button.primary:hover { background-color: #6f824f; }
+.button.primary:focus { -webkit-box-shadow: 0 0 4px #8aa064, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #8aa064, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #8aa064, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+.button.success { background-color: #4c6dcc; border: 1px solid #3c5db9; text-shadow:-1px -1px 0 #2f4ea6;}
+.button.success:hover { background-color: #5f80e0; }
+.button.success:focus { -webkit-box-shadow: 0 0 5px #4c6dcc, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 5px #4c6dcc, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 5px #4c6dcc, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+.button.alert { background-color: #c60f13; border: 1px solid #7f0a0c; }
+.button.alert:hover { background-color: #970b0e; }
+.button.alert:focus { -webkit-box-shadow: 0 0 4px #c60f13, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #c60f13, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #c60f13, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+.button.secondary { background-color: #e9e9e9; color: #1d1d1d; border: 1px solid #c3c3c3; text-shadow:none;}
+.button.secondary:hover { background-color: #d0d0d0; }
+.button.secondary:focus { -webkit-box-shadow: 0 0 5px #e9e9e9, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 5px #e9e9e9, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 5px #e9e9e9, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+.button.radius { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
+.button.round { -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; }
+.button.full-width { width: 100%; text-align: center; padding-left: 0px !important; padding-right: 0px !important; }
+.button.left-align { text-align: left; text-indent: 12px; }
+.button.disabled, .button[disabled] { opacity: 0.6; cursor: default; background: #8aa064; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+.button.disabled :hover, .button[disabled] :hover { background: #8aa064; }
+.button.disabled.success, .button[disabled].success { background-color: #9ed84c; }
+.button.disabled.success:hover, .button[disabled].success:hover { background-color: #9ed84c; }
+.button.disabled.alert, .button[disabled].alert { background-color: #c60f13; }
+.button.disabled.alert:hover, .button[disabled].alert:hover { background-color: #c60f13; }
+.button.disabled.secondary, .button[disabled].secondary { background-color: #e9e9e9; }
+.button.disabled.secondary:hover, .button[disabled].secondary:hover { background-color: #e9e9e9; }
+
+/* Don't use native buttons on iOS */
+input[type=submit].button, button.button { -webkit-appearance: none; }
+
+/* Correct FF button padding */
+@-moz-document url-prefix() { button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner { border: none; padding: 0; }
+  input[type="submit"].tiny.button { padding: 0px 4px 1px; }
+  input[type="submit"].small.button { padding: 2px 8px 3px; }
+  input[type="submit"].button, input[type=submit].medium.button { padding: 5px 14px 6px; }
+  input[type="submit"].large.button { padding: 10px 24px 11px; } }
+
+.nav-bar { height: 40px; background: #fff; margin-left: 0; margin-top: 20px; padding: 0; }
+.nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0; border: 1px solid #d6d6d6; border-right: none; line-height: 38px; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; }
+.nav-bar > li:first-child { -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
+.nav-bar > li:last-child { border-right: solid 1px #d6d6d6; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
+.nav-bar > li.active { background: #8aa064; border-color: #6f824f; }
+.nav-bar > li.active > a { color: white; cursor: default; }
+.nav-bar > li.active:hover { background: #8aa064; cursor: default; }
+.nav-bar > li:hover { background: none; }
+.nav-bar > li > a { color: #e6e6e6; }
+.nav-bar > li ul { margin-bottom: 0; }
+.nav-bar > li .flyout { display: none; }
+.nav-bar > li.has-flyout a div {width:34px;height:37px; padding:0;margin:0 -34px 0 0;float:right;}
+.nav-bar > li.has-flyout > a:first-child { padding-right: 40px; position: relative;text-decoration:none; }
+/*.nav-bar > li.has-flyout > a:first-child:after { content: ""; display: block; width: 0; height: 0; border: solid 4px; border-color: #e6e6e6 transparent transparent transparent; position: absolute; right: 20px; top: 17px; text-decoration:none;}*/
+.nav-bar > li.has-flyout > a:first-child:after { content:none;display: none; width: 0; height: 0; position: absolute; right: 20px; top: 17px; text-decoration:none;}
+.nav-bar > li.has-flyout > a.flyout-toggle { border-left: 0 !important; position: absolute; right: 0; top: 0; padding: 20px; z-index: 2; display: block; text-decoration:none;}
+.nav-bar > li.has-flyout.is-touch > a:first-child { padding-right: 55px; }
+.nav-bar > li.has-flyout.is-touch > a.flyout-toggle { border-left: 1px dashed #666; }
+.nav-bar > li > a:first-child { position: relative; padding: 0 10px; display: block; text-decoration: none; font-size: 14px; }
+.nav-bar > li > input { margin: 0 10px; }
+.nav-bar.vertical { height: auto; margin-top: 0; font-size:16px;}
+/* old with image .nav-bar.vertical > li { color:#888;float: none; border-bottom: none; border-right: solid 1px #d6d6d6; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; background:url(http://images.serenataflowers.com/leftnavbg.png) bottom left repeat-x;} */
+/* width gradient */
+.nav-bar.vertical > li { color:#888;float: none; border-bottom: none; border-right: solid 1px #d6d6d6; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; background: -moz-linear-gradient(top, #ffffff, #ececec);
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#ececec));
+background: linear-gradient(top, #ffffff, #ececec);-webkit-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;-moz-box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;box-shadow: inset 1px 10px 0 #ffffff, inset 0 -1px 0 #ffffff;}
+.nav-bar.vertical > li:first-child {-moz-border-radius-topright:6px;border-top-right-radius: 6px;-moz-border-radius-topleft:6px;border-top-left-radius: 6px;}
+.nav-bar.vertical > li > a {color:#888;}
+#myacc.nav-bar.vertical > li > a {color:#888;font-size:12px;}
+#myacc.nav-bar.vertical > li.selected > a {color:#fff;}
+.nav-bar.vertical > li > a:hover {color:#000;}
+.nav-bar.vertical > li:hover {color:#000;background: -moz-linear-gradient(top, #ececec, #ffffff);
+background: -webkit-gradient(linear, center top, center bottom, from(#ececec), to(#ffffff));
+background: linear-gradient(top, #ececec, #ffffff);}
+.nav-bar.vertical > li.has-flyout > a:first-child:after { content: ""; display: block; width: 0; height: 0; border: none; border-color: transparent transparent transparent #e6e6e6;-moz-border-radius-topleft:6px;border-top-left-radius: 6px; }
+.nav-bar.vertical > li .flyout { left: 100%; top: -1px; }
+.nav-bar.vertical > li .flyout.right { left: auto; right: 100%; }
+.nav-bar.vertical > li.active { border-right: solid 1px #6f824f;background-color:#8aa064;background-image:none; -webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;}
+.nav-bar.vertical > li.active > a {color:#fff;cursor:pointer;text-decoration:underline;}
+.nav-bar.vertical > li.selected {background:#666;color:#fff;-webkit-box-shadow: inset 1px 3px 2px #333, inset 0 -1px 0 #ffffff;-moz-box-shadow: inset 1px 3px 2px #333, inset 0 -1px 0 #ffffff;box-shadow: inset 1px 3px 2px #333, inset 0 -1px 0 #ffffff;-webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0;}
+.nav-bar.vertical > li.selected > a:link, .nav-bar.vertical > li.selected > a:active, .nav-bar.vertical > li.selected > a:visited {color:#fff;}
+.nav-bar.vertical li.selected a:link, .nav-bar.vertical li.selected a:active, .nav-bar.vertical li.selected a:visited {color:#fff;}
+.nav-bar.vertical li.selected a {color:#fff;}
+#myacc.nav-bar.vertical > li.active > a {color:#fff;font-size:14px;}
+#myacc.nav-bar.vertical > li.active > a:hover {color:#fff;}
+#myacc.nav-bar.vertical > li > a:hover {color:#000;}
+.nav-bar.vertical > li.active > a:hover {color:#fff;}
+.nav-bar.vertical > li.active:first-child {-moz-border-radius-topright:6px;border-top-right-radius: 6px;-moz-border-radius-topleft:6px;border-top-left-radius: 6px;}
+.nav-bar.vertical > li:last-child { border-bottom: solid 1px #d6d6d6;-moz-border-radius-bottomright:6px;border-bottom-right-radius: 6px;-moz-border-radius-bottomleft:6px;border-bottom-left-radius: 6px; }
+	.nav-bar.vertical > li.active img {width:27px;height:27px; padding:0;margin:5px -10px 0 0;float:right;}
+
+
+.flyout { background: #f2f2f2; padding: 20px; margin: 0; border: 1px solid #d9d9d9; position: absolute; top: 39px; left: -1px; width: 250px; z-index: 40; -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* remove margin on any first-child element */ /* remove margin on last element */ }
+.flyout p { line-height: 1.2; font-size: 11px; }
+.flyout *:first-child { margin-top: 0; -moz-border-radius-topright:6px;border-top-right-radius: 6px;}
+.flyout *:last-child { margin-bottom: 0; -moz-border-radius-topright:6px;border-top-right-radius: 6px;}
+.flyout.small { width: 166.66667px; }
+.flyout.large { width: 437.5px; }
+.flyout.right { left: auto; right: -2px; }
+.flyout.left { right: auto; left: -2px; }
+.flyout.up { top: auto; bottom: 39px; }
+
+ul.flyout, .nav-bar li ul { padding: 0; list-style: none; -moz-border-radius-topleft:6px;border-top-left-radius: 6px; }
+ul.flyout li, .nav-bar li ul li { border-left: solid 1px #CCC; }
+ul.flyout li a, .nav-bar li ul li a { color:#888;text-decoration:none;background: #f2f2f2; border: 1px solid #e6e6e6; border-width: 1px 1px 0 0; display: block; font-size: 12px; height: auto; line-height: 1; padding: 15px 20px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #ebebeb; color: #333; }
+ul.flyout li.active, .nav-bar li ul li.active { margin-top: 0; border-top: 1px solid #4d4d4d; border-left: 4px solid #1a1a1a; }
+ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
+
+/* CSS for jQuery Orbit Plugin 1.4.0 Maintained for Foundation. foundation.zurb.com Free to use under the MIT license. http://www.opensource.org/licenses/mit-license.php
+*/
+/* Container ---------------------- */
+.orbit-wrapper { width: 1px; height: 1px; position: relative; }
+.orbit { width: 1px; height: 1px; position: relative; overflow: hidden; margin-bottom: 17px; }
+.orbit.with-bullets { margin-bottom: 40px; }
+.orbit .orbit-slide { max-width: 100%; position: absolute; top: 0; left: 0; }
+.orbit a.orbit-slide { border: none; line-height: 0; display: none; }
+.orbit div.orbit-slide { width: 100%; height: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+/* Timer ---------------------- */
+div.orbit-wrapper div.timer { display:none;/* remove display:none; if needed */width: 40px; height: 40px; overflow: hidden; position: absolute; top: 10px; right: 10px; opacity: .6; cursor: pointer; z-index: 31; }
+div.orbit-wrapper span.rotator { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: -20px; background: url('http://images1.serenataflowers.com/rotator-black.png') no-repeat; z-index: 3; }
+div.orbit-wrapper span.rotator.move { left: 0; }
+div.orbit-wrapper span.mask { display: block; width: 20px; height: 40px; position: absolute; top: 0; right: 0; z-index: 2; overflow: hidden; }
+div.orbit-wrapper span.mask.move { width: 40px; left: 0; background: url('http://images2.serenataflowers.com/timer-black.png') repeat 0 0; }
+div.orbit-wrapper span.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0; background: url('http://images3.serenataflowers.com/pause-black.png') no-repeat; z-index: 4; opacity: 0; }
+div.orbit-wrapper span.pause.active { background: url('http://images4.serenataflowers.com/pause-black.png') no-repeat 0 -40px; }
+div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.active { opacity: 1; }
+
+/* Captions ---------------------- */
+.orbit-caption { display: none; font-family: inherit; }
+.orbit-wrapper .orbit-caption { background: black; background: rgba(0, 0, 0, 0.6); z-index: 30; color: white; text-align: center; padding: 7px 0; font-size: 11px; position: absolute; right: 0; bottom: 0; width: 100%; }
+
+/* Directional Nav ---------------------- */
+div.orbit-wrapper div.slider-nav { display: block; }
+div.orbit-wrapper div.slider-nav span { width: 39px; height: 50px; text-indent: -9999px; position: absolute; z-index: 30; top: 50%; margin-top: -25px; cursor: pointer; }
+div.orbit-wrapper div.slider-nav span.right { background: url('http://images1.serenataflowers.com/right-arrow.png'); background-size: 100%; right: 0; }
+div.orbit-wrapper div.slider-nav span.left { background: url('http://images2.serenataflowers.com/left-arrow.png'); background-size: 100%; left: 0; }
+
+.lt-ie9 div.orbit-wrapper div.slider-nav span.right { background: url('http://images3.serenataflowers.com/right-arrow-small.png'); }
+.lt-ie9 div.orbit-wrapper div.slider-nav span.left { background: url('http://images4.serenataflowers.com/left-arrow-small.png'); }
+
+/* Bullet Nav ---------------------- */
+ul.orbit-bullets { position: absolute; z-index: 30; list-style: none; bottom: -40px; left: 50%; margin-left: -50px; padding: 0; }
+ul.orbit-bullets li { float: left; margin-left: 5px; cursor: pointer; color: #999999; text-indent: -9999px; background: url('http://images.serenataflowers.com/bullets.jpg') no-repeat 4px 0; width: 13px; height: 12px; overflow: hidden; }
+ul.orbit-bullets li.active { color: #222222; background-position: -8px 0; }
+ul.orbit-bullets li.has-thumb { background: none; width: 100px; height: 75px; }
+ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px solid black; }
+
+/* Orbit Slide Counter */
+.orbit-slide-counter { position: absolute; bottom: 0; z-index: 99; background: rgba(0, 0, 0, 0.7); color: white; padding: 5px; }
+
+/* Fluid Layout ---------------------- */
+div.orbit img.fluid-placeholder { visibility: hidden; position: static; display: block; width: 100%; }
+div.orbit, div.orbit-wrapper { width: 100% !important; }
+
+/* Correct timer in IE */
+.lt-ie9 .timer { display: none !important; }
+.lt-ie9 div.caption { background: black; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000); zoom: 1; }
+
+@media only screen and (max-width: 767px) { div.orbit.orbit-stack-on-small img.fluid-placeholder { visibility: visible; }
+  div.orbit.orbit-stack-on-small .orbit-slide { position: static; margin-bottom: 10px; } }
+/* CSS for jQuery Reveal Plugin Maintained for Foundation. foundation.zurb.com Free to use under the MIT license. http://www.opensource.org/licenses/mit-license.php */
+/* Reveal Modals ---------------------- */
+.reveal-modal-bg { position: fixed; height: 100%; width: 100%; background: #000; background: rgba(0, 0, 0, 0.45); z-index: 40; display: none; top: 0; left: 0; }
+
+.reveal-modal { background: white; visibility: hidden; display: none; top: 100px; left: 50%; margin-left: -260px; width: 520px; position: absolute; z-index: 41; padding: 30px; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+.reveal-modal .close-reveal-modal { font-size: 22px; font-size: 2.2rem; line-height: .5; position: absolute; top: 8px; right: 11px; color: #aaa; text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6); font-weight: bold; cursor: pointer; }
+.reveal-modal.small { width: 30%; margin-left: -15%; }
+.reveal-modal.medium { width: 40%; margin-left: -20%; }
+.reveal-modal.large { width: 60%; margin-left: -30%; }
+.reveal-modal.xlarge { width: 70%; margin-left: -35%; }
+.reveal-modal.expand { width: 90%; margin-left: -45%; }
+.reveal-modal .row { min-width: 0; margin-bottom: 10px; }
+.reveal-modal > :first-child { margin-top: 0; }
+.reveal-modal > :last-child { margin-bottom: 0; }
+
+@media print { .reveal-modal { border: solid 1px #000; background: white !important; } }
+
+/* Tabs ---------------------- */
+.tabs { list-style: none; display: block; height: 30px; padding: 0; margin-top: 11px; margin-bottom: -11px;}
+
+/* safari OS margin fix */
+@media screen and 
+(-webkit-min-device-pixel-ratio:0)
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+{
+.tabs { margin-top: 12px; margin-bottom: -21px;}
+}
+
+.tabs.contained { margin-bottom: 0; margin-left: 0; }
+.tabs dt, .tabs li.section-title { color: #b3b3b3; cursor: default; display: block; float: left; font-size: 12px; height: 40px; line-height: 40px; padding: 0; padding-right: 9px; padding-left: 20px; font-weight: normal; width: auto; text-transform: uppercase; }
+.tabs dt:first-child, .tabs li.section-title:first-child { padding: 0; padding-right: 9px; }
+.tabs dd, .tabs li { display: block; float: left; padding: 0; margin: 0; }
+
+
+.tabs dd a, .tabs li a { text-decoration:none;color: #6f6f6f; display: block; font-size: 12px; height: 30px; line-height: 30px; padding: 0px 12px;border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;-moz-border-radius-topright:6px;border-top-right-radius: 6px; -moz-border-radius-topleft:6px;border-top-left-radius: 6px; background: #fff url(../images/gradient-from-top.gif) top left repeat-x;border-bottom: 1px solid #e6e6e6;}
+.tabs dd a:focus, .tabs li a:focus { font-weight: bold; color: #8aa064; }
+.tabs dd.active, .tabs li.active { border-top: 3px solid #8aa064; margin-top: -3px; -moz-border-radius-topright:6px;border-top-right-radius: 6px; -moz-border-radius-topleft:6px;border-top-left-radius: 6px;}
+.tabs dd.active a, .tabs li.active a { cursor: default; color: #3c3c3c; background-image: -moz-linear-gradient(top, #ffffff, #e7eed9);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#e7eed9));
+background-image: linear-gradient(top, #ffffff, #e7eed9);
+background-image: -ms-linear-gradient(top, #ffffff, #e7eed9);
+background-image: -o-linear-gradient(top, #ffffff, #e7eed9);; border-bottom: 1px solid #fff; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; font-weight: bold; }
+.tabs dd:first-child, .tabs li:first-child { margin-left: 0; }
+.tabs.vertical { height: auto; border-bottom: 1px solid #e6e6e6; }
+.tabs.vertical dt, .tabs.vertical dd, .tabs.vertical li { float: none; height: auto; }
+.tabs.vertical dd, .tabs.vertical li { border-left: 3px solid #cccccc; }
+.tabs.vertical dd a, .tabs.vertical li a { background: #f2f2f2; border: none; border: 1px solid #e6e6e6; border-width: 1px 1px 0 0; color: #555; display: block; font-size: 12px; height: auto; line-height: 1; padding: 15px 20px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+.tabs.vertical dd.active, .tabs.vertical li.active { margin-top: 0; border-top: 1px solid #4d4d4d; border-left: 4px solid #1a1a1a; }
+.tabs.vertical dd.active a, .tabs.vertical li.active a { background: #4d4d4d; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
+.tabs.vertical dd:first-child a.active, .tabs.vertical li:first-child a.active { margin: 0; }
+.tabs.pill { border-bottom: none; margin-bottom: 10px; }
+.tabs.pill dd, .tabs.pill li { margin-right: 10px; }
+.tabs.pill dd:last-child, .tabs.pill li:last-child { margin-right: 0; }
+.tabs.pill dd a, .tabs.pill li a { -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; background: #e6e6e6; height: 26px; line-height: 26px; color: #666; }
+.tabs.pill dd.active, .tabs.pill li.active { border: none; margin-top: 0; }
+.tabs.pill dd.active a, .tabs.pill li.active a { background-color: #8aa064; border: none; color: #fff; }
+.tabs.pill.contained { border-bottom: solid 1px #eee; margin-bottom: 0; }
+.tabs.pill.two-up dd, .tabs.pill.two-up li, .tabs.pill.three-up dd, .tabs.pill.three-up li, .tabs.pill.four-up dd, .tabs.pill.four-up li, .tabs.pill.five-up dd, .tabs.pill.five-up li { margin-right: 0; }
+.tabs.two-up dt a, .tabs.two-up dd a, .tabs.two-up li a, .tabs.three-up dt a, .tabs.three-up dd a, .tabs.three-up li a, .tabs.four-up dt a, .tabs.four-up dd a, .tabs.four-up li a, .tabs.five-up dt a, .tabs.five-up dd a, .tabs.five-up li a { padding: 0 17px; text-align: center; overflow: hidden; text-decoration:none;}
+.tabs.two-up dt, .tabs.two-up dd, .tabs.two-up li { width: 50%; }
+.tabs.three-up dt, .tabs.three-up dd, .tabs.two-up li { width: 33.33%; }
+.tabs.four-up dt, .tabs.four-up dd, .tabs.two-up li { width: 25%; }
+.tabs.five-up dt, .tabs.five-up dd, .tabs.two-up li { width: 20%; }
+
+
+.tabs.contained dd.active, .tabs.contained li.active {border-top: 3px solid #8aa064;}
+ul.tabs-content { display: block; margin: 0 0 20px; padding: 0; }
+ul.tabs-content h2 {color:#c357ba;text-shadow:-1px -1px 0 #fff;}
+ul.tabs-content p {color:#888;}
+ul.tabs-content > li { display: none; }
+ul.tabs-content > li.active { display: block; -moz-border-radius-bottomright:8px;border-bottom-right-radius: 8px; -moz-border-radius-bottomleft:8px;border-bottom-left-radius: 8px;}
+ul.tabs-content.contained { padding: 0; border-top:1px solid #e6e6e6;}
+ul.tabs-content.contained > li { border: solid 0 #e6e6e6; border-width: 0 1px 1px 1px; padding: 20px; }
+ul.tabs-content.contained.vertical > li { border-width: 1px 1px 1px 1px; }
+
+.no-js ul.tabs-content > li { display: block; }
+
+/* Table of Contents
+
+:: Visibility
+:: Alerts
+:: Labels
+:: Tooltips
+:: Panels
+:: Accordion
+:: Side Nav
+:: Sub Nav
+:: Pagination
+:: Breadcrumbs
+:: Lists
+:: Inline/Link Lists
+:: Keystroke Chars
+:: Image Thumbnails
+:: Video
+:: Tables
+:: Microformats
+:: Progress Bars
+:: Pricing Tables
+
+*/
+/* Alerts ---------------------- */
+div.alert-box { display: block; padding: 6px 7px 7px; font-weight: bold; font-size: 12px; color: white; background-color: #8aa064; border: 1px solid rgba(0, 0, 0, 0.1); margin-bottom: 12px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); position: relative; }
+div.alert-box.success { background-color: #9ed84c; color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); }
+div.alert-box.alert { background-color: #c60f13; color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); }
+div.alert-box.secondary { background-color: #e9e9e9; color: #505050; text-shadow: 0 1px rgba(255, 255, 255, 0.3); }
+div.alert-box a.close { color: #333; position: absolute; right: 4px; top: -1px; font-size: 17px; opacity: 0.2; padding: 4px; }
+div.alert-box a.close:hover, div.alert-box a.close:focus { opacity: 0.4; }
+
+/* Labels ---------------------- */
+.label { padding: 1px 4px 2px; font-size: 10px; font-weight: bold; text-align: center; text-decoration: none; line-height: 1; white-space: nowrap; display: inline; position: relative; bottom: 1px; color: #fff; background: #8aa064; }
+.label.radius { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
+.label.round { padding: 1px 7px 2px; -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; }
+.label.alert { background-color: #c60f13; }
+.label.success { background-color: #9ed84c; }
+.label.secondary { background-color: #e9e9e9; color: #505050; }
+
+/* Tooltips ---------------------- */
+.has-tip { border-bottom: dotted 1px #cccccc; cursor: help; font-weight: bold; color: #333333; }
+.has-tip:hover { border-bottom: dotted 1px #54623c; color: #8aa064; }
+.has-tip.tip-left, .has-tip.tip-right { float: none !important; }
+
+.tooltip { display: none; background: black; background: rgba(0, 0, 0, 0.85); position: absolute; color: white; font-weight: bold; font-size: 12px; padding: 5px; z-index: 999; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; line-height: normal; }
+.tooltip > .nub { display: block; width: 0; height: 0; border: solid 5px; border-color: transparent transparent black transparent; border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent; position: absolute; top: -10px; left: 10px; }
+.tooltip.tip-override > .nub { border-color: transparent transparent black transparent !important; border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent !important; top: -10px !important; }
+.tooltip.tip-top > .nub { border-color: black transparent transparent transparent; border-color: rgba(0, 0, 0, 0.85) transparent transparent transparent; top: auto; bottom: -10px; }
+.tooltip.tip-left, .tooltip.tip-right { float: none !important; }
+.tooltip.tip-left > .nub { border-color: transparent transparent transparent black; border-color: transparent transparent transparent rgba(0, 0, 0, 0.85); right: -10px; left: auto; }
+.tooltip.tip-right > .nub { border-color: transparent black transparent transparent; border-color: transparent rgba(0, 0, 0, 0.85) transparent transparent; right: auto; left: -10px; }
+.tooltip.noradius { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
+.tooltip.opened { color: #8aa064 !important; border-bottom: dotted 1px #54623c !important; }
+
+.tap-to-close { display: block; font-size: 10px; font-size: 1rem; color: #888888; font-weight: normal; }
+
+/* Panels ---------------------- */
+.panel { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; }
+.panel > :first-child { margin-top: 0; }
+.panel > :last-child { margin-bottom: 0; }
+.panel.callout { background: #8aa064; color: #fff; border-color: #6f824f; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
+.panel.callout a { color: #fff; }
+.panel.callout .button { background: white; border: none; color: #8aa064; text-shadow: none; }
+.panel.callout .button:hover { background: rgba(255, 255, 255, 0.8); }
+.panel.radius { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
+
+/* Side Nav ---------------------- */
+ul.side-nav { display: block; list-style: none; margin: 0; padding: 17px 0; }
+ul.side-nav li { display: block; list-style: none; margin: 0 0 6px 0; }
+ul.side-nav li a { display: block; }
+ul.side-nav li.active a { color: #4d4d4d; font-weight: bold; }
+ul.side-nav li.divider { border-top: 1px solid #e6e6e6; height: 0; padding: 0; }
+
+/* Sub Navs http://www.zurb.com/article/292/how-to-create-simple-and-effective-sub-na ---------------------- */
+dl.sub-nav { display: block; width: auto; overflow: hidden; margin: -4px 0 18px; margin-right: 0; margin-left: -9px; padding-top: 4px; }
+dl.sub-nav dt, dl.sub-nav dd { float: left; display: inline; margin-left: 9px; margin-bottom: 10px; }
+dl.sub-nav dt { color: #999; font-weight: normal; }
+dl.sub-nav dd a { text-decoration: none; -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; }
+dl.sub-nav dd.active a { font-weight: bold; background: #8aa064; color: #fff; padding: 3px 9px; cursor: default; }
+
+/* Pagination ---------------------- */
+ul.pagination { display: block; height: 24px; margin-left: -5px; }
+ul.pagination li { float: left; display: block; height: 24px; color: #999; font-size: 12px; margin-left: 5px; }
+ul.pagination li a { display: block; padding: 1px 7px 1px; color: #555; }
+ul.pagination li:hover a, ul.pagination li a:focus { background: #e6e6e6; }
+ul.pagination li.unavailable a { cursor: default; color: #999; }
+ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus { background: transparent; }
+ul.pagination li.current a { background: #8aa064; color: white; font-weight: bold; cursor: default; }
+ul.pagination li.current a:hover { background: #8aa064; }
+
+/* Breadcrums ---------------------- */
+ul.breadcrumbs { display: block; background: #f6f6f6; padding: 6px 10px 7px; border: 1px solid #e9e9e9; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; overflow: hidden; margin-left: 0; }
+ul.breadcrumbs li { margin: 0; padding: 0 12px 0 0; float: left; list-style: none; }
+ul.breadcrumbs li a, ul.breadcrumbs li span { text-transform: uppercase; font-size: 11px; font-size: 1.1rem; padding-left: 12px; }
+ul.breadcrumbs li:first-child a, ul.breadcrumbs li:first-child span { padding-left: 0; }
+ul.breadcrumbs li:before { content: ">"; color: #aaa; font-weight:bold;}
+ul.breadcrumbs li:first-child:before { content: " "; }
+ul.breadcrumbs li.current a { cursor: default; color: #605e5e;text-decoration:none; }
+ul.breadcrumbs li:hover a, ul.breadcrumbs li a:focus { text-decoration: underline; }
+ul.breadcrumbs li.current:hover a, ul.breadcrumbs li.current a:focus { text-decoration: none; }
+ul.breadcrumbs li.unavailable a { color: #333;text-decoration:none; }
+ul.breadcrumbs li.unavailable:hover a, ul.breadcrumbs li.unavailable a:focus { text-decoration: none; color: #999; cursor: default; }
+ul.breadcrumbs a.oldprice, ul.breadcrumbs a.normalprice, ul.breadcrumbs a.offerprice {text-decoration:none;}
+/* Inline Link List */
+ul.inline-list, ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
+ul.inline-list > li, ul.link-list > li { list-style: none; float: left; margin-left: 22px; display: block; }
+ul.inline-list > li > *, ul.link-list > li > * { display: block; }
+
+/* Keytroke Characters ---------------------- */
+.keystroke, kbd { font-family: "Consolas", "Menlo", "Courier", monospace; font-size: 11px; padding: 2px 4px 0px; margin: 0; background: #ededed; border: solid 1px #dbdbdb; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
+
+/* Tables ---------------------- */
+table { background: #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; margin: 0 0 18px; border: 1px solid #ddd; }
+table thead, table tfoot { background: #f5f5f5; }
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; font-size: 12px; line-height: 18px; text-align: left; }
+table thead tr th, table tfoot tr td { padding: 8px 10px 9px; font-size: 12px; font-weight: bold; color: #222; }
+table thead tr th:first-child, table tfoot tr td:first-child { border-left: none; }
+table thead tr th:last-child, table tfoot tr td:last-child { border-right: none; }
+table tbody tr.even, table tbody tr.alt { background: #f9f9f9; }
+table tbody tr:nth-child(even) { background: #f9f9f9; }
+table tbody tr td { color: #888; padding: 6px 7px; vertical-align: middle; border: none; }
+
+/* Microformats ---------------------- */
+ul.vcard { display: inline-block; margin: 0 0 12px 0; border: 1px solid #ddd; padding: 10px; }
+ul.vcard li { margin: 0; display: block; }
+ul.vcard li.fn { font-weight: bold; font-size: 13px; }
+
+p.vevent span.summary { font-weight: bold; }
+p.vevent abbr { cursor: default; text-decoration: none; font-weight: bold; border: none; padding: 0 1px; }
+
+/* Visibility Classes ---------------------- */
+/*                                           */
+/* Standard (large) display targeting */
+.show-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .show-for-xlarge, .show-for-print { display: none !important; }
+
+.hide-for-small, .hide-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .hide-for-xlarge, .hide-for-print { display: inherit !important; }
+
+/* Very large display targeting */
+@media only screen and (min-width: 1441px) { .hide-for-small, .hide-for-medium, .hide-for-medium-down, .hide-for-large, .show-for-large-up, .show-for-xlarge { display: inherit !important; }
+  .show-for-small, .show-for-medium, .show-for-medium-down, .show-for-large, .hide-for-large-up, .hide-for-xlarge { display: none !important; } }
+/* Medium display targeting */
+@media only screen and (max-width: 1279px) and (min-width: 768px) { .hide-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
+  .show-for-small, .hide-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge { display: none !important; } }
+/* Small display targeting */
+@media only screen and (max-width: 767px) { .show-for-small, .hide-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
+  .hide-for-small, .show-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge { display: none !important; } }
+/* Orientation targeting */
+.show-for-landscape, .hide-for-portrait { display: inherit !important; }
+
+.hide-for-landscape, .show-for-portrait { display: none !important; }
+
+@media screen and (orientation: landscape) { .show-for-landscape, .hide-for-portrait { display: inherit !important; }
+  .hide-for-landscape, .show-for-portrait { display: none !important; } }
+@media screen and (orientation: portrait) { .show-for-portrait, .hide-for-landscape { display: inherit !important; }
+  .hide-for-portrait, .show-for-landscape { display: none !important; } }
+/* Touch-enabled device targeting */
+.show-for-touch { display: none !important; }
+
+.hide-for-touch { display: inherit !important; }
+
+.touch .show-for-touch { display: inherit !important; }
+
+.touch .hide-for-touch { display: none !important; }
+
+/* Specific overrides for elements that require something other than display: block */
+table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-for-medium { display: table !important; }
+
+@media only screen and (max-width: 1279px) and (min-width: 768px) { .touch table.hide-for-xlarge, .touch table.hide-for-large, .touch table.hide-for-small, .touch table.show-for-medium { display: table !important; } }
+@media only screen and (max-width: 767px) { table.hide-for-xlarge, table.hide-for-large, table.hide-for-medium, table.show-for-small { display: table !important; } }
+/* 1280 tablet ------------ */
+@media only screen and (max-device-width: 1280px) { /* NavBar --- */
+  /*            */
+  .touch .nav-bar li.has-flyout > a { padding-right: 36px !important; } }
+/* Covering almost all ----- */
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) { .flex-video { padding-top: 0; } }
+/* Between Medium and Small */
+@media only screen and (max-width: 1279px) and (min-width: 768px) { /* NavBar --- */
+  /*            */
+  .touch .nav-bar li a { font-size: 11px; }
+  .touch .nav-bar li.has-flyout > a.flyout-toggle { padding: 20px !important; }
+  .touch .nav-bar li.has-flyout > a { padding-right: 36px !important; }
+  /* Clearing --- */
+  /*              */
+  .clearing-main-right, .clearing-main-left { height: 100%; width: 40px; top: 0; border: none; }
+  .clearing-main-right:before, .clearing-main-left:before { position: absolute; top: 50%; }
+  .clearing-main-left { left: 0; }
+  .clearing-main-left:before { left: 5px; content: ""; display: block; width: 0; height: 0; border: solid 16px; border-color: transparent white transparent transparent; }
+  .clearing-main-right { height: 100%; right: 0; }
+  .clearing-main-right:before { content: ""; display: block; width: 0; height: 0; border: solid 16px; border-color: transparent transparent transparent white; } }
+/* Small Devices ------------ */
+
+/* Topbar Specific Breakpoint that you can customize */
+@media only screen and (max-width: 940px) { .top-bar { margin-bottom: 0; overflow: hidden; height: 45px; background: #222222; /* Override contain to grid stuff for breakpoint */ /* Setting up the sliding area */ /* When the Small Nav is Showing */ }
+  .top-bar .js-generated { display: block; }
+  .contain-to-grid .top-bar { width: auto; }
+  .top-bar section { left: 0; position: relative; width: auto; -webkit-transition: left 300ms; -moz-transition: left 300ms; -o-transition: left 300ms; transition: left 300ms; }
+  .top-bar ul { width: 100%; height: 100%; margin-bottom: 0; display: block; }
+  .top-bar ul > li { float: none; /* Branding and name */ /* Dropdown Toggle */ /* Divider for breakpoint */ /* Search Overrides for breakpoint size */ /* Dropdown Level 1 */ /* Dropdown Level 2 */ }
+  .top-bar ul > li.active, .top-bar ul > li:hover { background: #151515; }
+  .top-bar ul > li.name { background: black; height: 45px; }
+  .top-bar ul > li.name h1 { line-height: 1; }
+  .top-bar ul > li.name h1 a { color: white; display: block; line-height: 45px !important; padding-left: 15px; height: 45px; }
+  .top-bar ul > li:hover a, .top-bar ul > li.active a { color: white; }
+  .top-bar ul > li a:not(.button) { color: white; }
+  .top-bar ul > li.toggle-topbar { cursor: pointer; display: block; height: 45px; position: absolute; right: 0; top: 0; width: 50%; }
+  .top-bar ul > li.toggle-topbar a { content: ""; display: block; width: 0; height: 0; border: solid 8px; border-color: white transparent transparent transparent; padding: 0; position: absolute; top: 50%; right: 22.5px; margin-top: -4px; }
+  .top-bar ul > li.toggle-topbar:hover { background: inherit; }
+  .top-bar ul > li.toggle-topbar a { padding: 0 !important; }
+  .top-bar ul > li.divider { border-bottom: solid 1px #3c3c3c; border-top: solid 1px black; clear: both; height: 1px !important; margin: 8px 0 !important; width: 100%; }
+  .top-bar ul > li.search { padding: 0 22.5px; }
+  .top-bar ul > li.search form { width: 100%; }
+  .top-bar ul > li.search form input[type=text] { width: 75%; }
+  .top-bar ul > li.search form .button { top: 0; width: 25%; }
+  .top-bar ul > li.has-dropdown a { padding-right: 33.75px; }
+  .top-bar ul > li.has-dropdown a:after { content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: transparent transparent transparent rgba(255, 255, 255, 0.5); margin-right: 15px; margin-top: -4.5px; position: absolute; top: 50%; }
+  .top-bar ul > li.has-dropdown:hover > .dropdown { display: block; visibility: hidden; }
+  .top-bar ul > li.has-dropdown .dropdown { visibility: hidden; z-index: 0 !important; }
+  .top-bar ul > li.has-dropdown.moved { position: static; }
+  .top-bar ul > li.has-dropdown.moved .dropdown { top: 0; visibility: visible; }
+  .top-bar ul > li.has-dropdown.moved .dropdown li label { margin-bottom: 6px; padding-top: 6px !important; font-size: 9px; }
+  .top-bar ul > li.has-dropdown.moved .dropdown li:not(.title) { padding-bottom: 0; }
+  .top-bar ul > li.has-dropdown.moved .dropdown li:not(.title) a { padding: 8px 22.5px; font-size: 12px; }
+  .top-bar ul > li.has-dropdown.moved .dropdown li a, .top-bar ul > li.has-dropdown.moved .dropdown li label { padding: 0 22.5px; }
+  .top-bar ul > li.has-dropdown.moved .dropdown li a:hover { background: #3c3c3c; display: block; }
+  .top-bar ul > li.has-dropdown.moved .dropdown li.divider { border-bottom: solid 1px rgba(255, 255, 255, 0.1); margin-top: 8px !important; margin-bottom: 8px !important; }
+  .top-bar ul > li.has-dropdown.moved .back.title { padding-bottom: 0; }
+  .top-bar ul > li.has-dropdown.moved .back.title a:before { position: absolute; top: 50%; left: 17.5px; margin-top: -5px; width: 0; height: 0; content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: transparent white transparent transparent; }
+  .top-bar ul > li.has-dropdown.moved .back.title h5 { margin: 0; padding-left: 15px; position: relative; }
+  .top-bar ul > li.has-dropdown.moved .back.title h5 a { background: transparent; padding-top: 8px; padding-bottom: 8px; font-size: 19px; font-weight: bold; }
+  .top-bar ul > li.has-dropdown .dropdown li { background: transparent; }
+  .top-bar ul > li.has-dropdown .dropdown li.has-dropdown .dropdown { left: 100% !important; top: 0; right: auto !important; }
+  .top-bar ul > li.has-dropdown .dropdown li.has-dropdown > a { padding-right: 33.75px; }
+  .top-bar ul > li.has-dropdown .dropdown li.has-dropdown > a:after { content: ""; margin-right: 15px; content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: transparent transparent transparent rgba(255, 255, 255, 0.5); position: absolute; top: 50%; margin-top: -4.5px; }
+  .top-bar ul > li.has-dropdown .dropdown li.has-dropdown > a li a:hover { background: #3c3c3c; }
+  .top-bar ul > li.has-dropdown .dropdown li.has-dropdown.moved { position: static; }
+  .top-bar ul > li.has-dropdown .dropdown li.has-dropdown.moved .dropdown { top: 0; visibility: visible; }
+  .top-bar ul > li.has-dropdown .dropdown li.has-dropdown:hover { display: block; }
+  .top-bar ul.left, .top-bar ul.right { float: none; width: 100%; }
+  .top-bar ul.left > li, .top-bar ul.right > li { display: block; float: none; margin: 0 !important; }
+  .top-bar ul.left > li.has-dropdown .dropdown, .top-bar ul.right > li.has-dropdown .dropdown { left: 100% !important; top: 0; right: auto !important; }
+  .top-bar section > ul li a:not(.button) { padding-left: 22.5px !important; }
+  .top-bar.expanded { height: 100%; }
+  .top-bar.expanded ul li.toggle-topbar a { content: ""; display: block; width: 0; height: 0; border: solid 8px; border-color: transparent transparent rgba(255, 255, 255, 0.5) transparent; top: auto; bottom: 50%; margin-bottom: -4px; }
+  .top-bar ul li.has-button { padding: 5px 15px; }
+  .top-bar ul li .button.small { margin: 0 !important; display: inline-block; width: 100%; }
+  .top-bar ul > li.has-button a.button { margin: 0; } }

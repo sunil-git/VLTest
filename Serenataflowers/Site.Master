@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Serenataflowers.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/m_style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<script type="text/javascript" src="//nexus.ensighten.com/serenata/Bootstrap.js"></script>
+<body>
+    <form runat="server">
+    <div class="page_wrapper">
+    <a href="" ><div id="logo"></div></a>
+            
+         
+            
+    </div>
+
+    <div class="content_normal">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+    </div>
+    
+    
+    
+    <div id="footer">
+	<p>
+	<a href="/termsandcond.aspx">Terms and Conditions</a>&nbsp;|&nbsp;
+	<a href="/flower_delivery.aspx">Delivery information</a>&nbsp;|&nbsp;								
+	<a href="/contact.aspx">Contact Us</a>&nbsp;|&nbsp;	
+	<a href="/about.aspx">About Us</a>
+	<br>
+	©&nbsp;2003 - 2011 Serenata Commerce Ltd
+	</p>
+</div>
+    </form>
+</body>
+</html>
