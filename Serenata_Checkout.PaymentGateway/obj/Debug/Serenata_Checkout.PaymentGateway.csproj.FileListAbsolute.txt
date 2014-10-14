@@ -1,0 +1,11 @@
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\obj\Debug\Serenata_Checkout.PaymentGateway.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\Serenata_Checkout.PaymentGateway.dll.config
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\Serenata_Checkout.PaymentGateway.dll
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\Serenata_Checkout.PaymentGateway.pdb
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\Serenata_Checkout.Dto.dll
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\SFMobile.Exceptions.dll
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\log4net.dll
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\Serenata_Checkout.Dto.pdb
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\bin\Debug\SFMobile.Exceptions.pdb
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\obj\Debug\Serenata_Checkout.PaymentGateway.dll
+D:\Sunil-Test\Serenata_Checkout.PaymentGateway\obj\Debug\Serenata_Checkout.PaymentGateway.pdb

@@ -1,0 +1,9 @@
+D:\Sunil-Test\Serenata_Checkout.Dal\obj\Debug\Serenata_Checkout.Dal.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\Serenata_Checkout.Dal\bin\Debug\Serenata_Checkout.Dal.dll
+D:\Sunil-Test\Serenata_Checkout.Dal\bin\Debug\Serenata_Checkout.Dal.pdb
+D:\Sunil-Test\Serenata_Checkout.Dal\bin\Debug\Serenata_Checkout.Dto.dll
+D:\Sunil-Test\Serenata_Checkout.Dal\bin\Debug\Serenata_Checkout.Log.dll
+D:\Sunil-Test\Serenata_Checkout.Dal\bin\Debug\Serenata_Checkout.Log.pdb
+D:\Sunil-Test\Serenata_Checkout.Dal\bin\Debug\Serenata_Checkout.Dto.pdb
+D:\Sunil-Test\Serenata_Checkout.Dal\obj\Debug\Serenata_Checkout.Dal.dll
+D:\Sunil-Test\Serenata_Checkout.Dal\obj\Debug\Serenata_Checkout.Dal.pdb

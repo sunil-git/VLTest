@@ -1,0 +1,10 @@
+D:\Sunil-Test\SerenataOrderSchema\obj\Debug\SerenataOrderSchema.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\SerenataOrderSchema\bin\Debug\SerenataOrderSchema.dll
+D:\Sunil-Test\SerenataOrderSchema\bin\Debug\SerenataOrderSchema.pdb
+D:\Sunil-Test\SerenataOrderSchema\bin\Debug\SFMobile.DTO.dll
+D:\Sunil-Test\SerenataOrderSchema\bin\Debug\SFMobile.Exceptions.dll
+D:\Sunil-Test\SerenataOrderSchema\bin\Debug\log4net.dll
+D:\Sunil-Test\SerenataOrderSchema\bin\Debug\SFMobile.DTO.pdb
+D:\Sunil-Test\SerenataOrderSchema\bin\Debug\SFMobile.Exceptions.pdb
+D:\Sunil-Test\SerenataOrderSchema\obj\Debug\SerenataOrderSchema.dll
+D:\Sunil-Test\SerenataOrderSchema\obj\Debug\SerenataOrderSchema.pdb

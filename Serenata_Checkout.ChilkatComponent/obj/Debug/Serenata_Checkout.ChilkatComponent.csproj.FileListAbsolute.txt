@@ -1,0 +1,10 @@
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\obj\Debug\Serenata_Checkout.ChilkatComponent.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\bin\Debug\Serenata_Checkout.ChilkatComponent.dll
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\bin\Debug\Serenata_Checkout.ChilkatComponent.pdb
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\bin\Debug\Serenata_Checkout.Dto.dll
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\bin\Debug\Serenata_Checkout.Log.dll
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\bin\Debug\log4net.dll
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\bin\Debug\Serenata_Checkout.Dto.pdb
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\bin\Debug\Serenata_Checkout.Log.pdb
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\obj\Debug\Serenata_Checkout.ChilkatComponent.dll
+D:\Sunil-Test\Serenata_Checkout.ChilkatComponent\obj\Debug\Serenata_Checkout.ChilkatComponent.pdb

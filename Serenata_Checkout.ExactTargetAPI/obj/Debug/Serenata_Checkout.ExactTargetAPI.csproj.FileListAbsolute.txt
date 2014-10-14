@@ -1,0 +1,9 @@
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\obj\Debug\Serenata_Checkout.ExactTargetAPI.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\bin\Debug\Serenata_Checkout.ExactTargetAPI.dll.config
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\bin\Debug\Serenata_Checkout.ExactTargetAPI.dll
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\bin\Debug\Serenata_Checkout.ExactTargetAPI.pdb
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\bin\Debug\Serenata_Checkout.Log.dll
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\bin\Debug\log4net.dll
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\bin\Debug\Serenata_Checkout.Log.pdb
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\obj\Debug\Serenata_Checkout.ExactTargetAPI.dll
+D:\Sunil-Test\Serenata_Checkout.ExactTargetAPI\obj\Debug\Serenata_Checkout.ExactTargetAPI.pdb

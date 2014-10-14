@@ -1,0 +1,12 @@
+D:\Sunil-Test\SFMobile.BAL\obj\Debug\SFMobile.BAL.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.BAL.dll
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.BAL.pdb
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.DAL.dll
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.DTO.dll
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.Exceptions.dll
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\log4net.dll
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.DAL.pdb
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.DTO.pdb
+D:\Sunil-Test\SFMobile.BAL\bin\Debug\SFMobile.Exceptions.pdb
+D:\Sunil-Test\SFMobile.BAL\obj\Debug\SFMobile.BAL.dll
+D:\Sunil-Test\SFMobile.BAL\obj\Debug\SFMobile.BAL.pdb

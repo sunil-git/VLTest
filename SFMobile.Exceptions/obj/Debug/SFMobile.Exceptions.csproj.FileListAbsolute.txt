@@ -1,0 +1,5 @@
+D:\Sunil-Test\SFMobile.Exceptions\obj\Debug\SFMobile.Exceptions.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\SFMobile.Exceptions\bin\Debug\SFMobile.Exceptions.dll
+D:\Sunil-Test\SFMobile.Exceptions\bin\Debug\SFMobile.Exceptions.pdb
+D:\Sunil-Test\SFMobile.Exceptions\obj\Debug\SFMobile.Exceptions.dll
+D:\Sunil-Test\SFMobile.Exceptions\obj\Debug\SFMobile.Exceptions.pdb

@@ -1,0 +1,5 @@
+D:\Sunil-Test\Serenata_Checkout.Log\obj\Debug\Serenata_Checkout.Log.csprojResolveAssemblyReference.cache
+D:\Sunil-Test\Serenata_Checkout.Log\bin\Debug\Serenata_Checkout.Log.dll
+D:\Sunil-Test\Serenata_Checkout.Log\bin\Debug\Serenata_Checkout.Log.pdb
+D:\Sunil-Test\Serenata_Checkout.Log\obj\Debug\Serenata_Checkout.Log.dll
+D:\Sunil-Test\Serenata_Checkout.Log\obj\Debug\Serenata_Checkout.Log.pdb
